@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ site.url }}/css/font-awesome.css">
+	<link rel="stylesheet" href="{{ site.url }}/css/main.css">
+	<title>{{ page.title }}</title>
+</head>
+<body>
+	<header>
+		<div class="top-line"></div>
+		<div class="header">
+			<div class="container">
+				<div class="pull-left" style="margin-right: 20px;">
+					<a href="{{ site.url }}/"><img class="img-circle pull-left" 
+						src="{{ site.url }}/assets/images/anand.png"></a>
+				</div>
+				<div class="pull-left" style="padding-top: 0.5em">
+					<h1><a href="{{ site.url }}/">Anand Doshi</a></h1>
+					<span>a book thief, software developer, day dreamer and more..</span>
+				</div>
+			</div>
+		</div>
+		</div>
+	</header>
+	
+	<div class="container">
+		{{ content }}
+	</div>
+	
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<ul class="list-unstyled">
+					<li><i class="icon-twitter icon-fixed-width"></i> <a href="https://twitter.com/anandpdoshi" target="_blank">@anandpdoshi</a></li>
+					<li><i class="icon-github icon-fixed-width"></i> <a href="https://github.com/anandpdoshi" target="_blank">github.com/anandpdoshi</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="{{ site.url }}/js/jquery.min.js"></script>
+	<script src="{{ site.url }}/js/bootstrap.min.js"></script>
+</body>
+</html>
