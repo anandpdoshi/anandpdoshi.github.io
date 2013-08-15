@@ -1,7 +1,10 @@
 ---
 layout: post
 title: The Cuckoo's Calling - A Book Review
+excerpt: The Cuckoo's Calling is a detective novel written by J. K. Rowling under the pseudonym Robert Galbraith.
 ---
+
+<p><img src="/assets/images/the-cuckoos-calling-cover.jpg" style="max-height: 300px" class="img-responsive" title="The Cuckoo's Calling" alt="The Cuckoo's Calling Cover"/></p>
 
 The Cuckoo's Calling is a detective novel written by J. K. Rowling under the pseudonym Robert Galbraith.
 
