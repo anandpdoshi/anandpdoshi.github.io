@@ -12,7 +12,7 @@ Yeah. I am. What about it?
 
 Erm. Yes. But I have almost reached his home.
 
-*Jenga Blocks is still in his wish list. None of his known associates has bought it recently. If you place the order now, you can collect it right now from the Amazing Store, 500 meters away from his home. It will cost ₹ 700. Should I place the order?*
+*Jenga Blocks is still in his wish list. None of his known associates have bought it recently. If you place the order now, you can collect it from the Amazing Store, 500 meters away from his home. It will cost ₹ 700. Should I place the order?*
 
 Okay! Go ahead.
 
