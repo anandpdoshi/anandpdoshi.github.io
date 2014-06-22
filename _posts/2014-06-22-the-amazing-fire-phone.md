@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 title: The Amazing Fire Phone
 excerpt: How technology is becoming pervasive to the point of reluctanct acceptance.
 ---
