@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: The Amazing Fire Phone
+excerpt: How technology is becoming pervasive to the point of reluctanct acceptance.
 ---
 
 *Anand, are you going to Rakesh’s home?*
