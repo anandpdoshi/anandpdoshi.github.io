@@ -7,29 +7,29 @@
 	<link rel="stylesheet" href="{{ site.url }}/css/font-awesome.css">
 	<link rel="stylesheet" href="{{ site.url }}/css/main.css">
 	<title>{{ page.title }}</title>
+	{% if page.date %}
+	<meta http-equiv="date" content="{{ page.date | date_to_rfc822 }}" />
+	{% endif %}
+	{% if page.excerpt %}
+	<meta name="description" content="{{ page.excerpt | strip_html }}" />
+	{% endif %}
 </head>
 <body>
 	<header>
 		<div class="top-line"></div>
 		<div class="header">
 			<div class="container">
-				<div class="pull-left" style="margin-right: 20px;">
-					<a href="{{ site.url }}/"><img class="img-circle pull-left" 
-						src="{{ site.url }}/assets/images/anand.png"></a>
-				</div>
-				<div class="pull-left" style="padding-top: 0.5em">
-					<h1><a href="{{ site.url }}/">Anand Doshi</a></h1>
-					<span>a book thief, software developer, day dreamer and more..</span>
-				</div>
+				<h1><a href="{{ site.url }}/">Anand Doshi</a></h1>
+				<span>a book thief, software developer, day dreamer and more..</span>
 			</div>
 		</div>
 		</div>
 	</header>
-	
+
 	<div class="container">
 		{{ content }}
 	</div>
-	
+
 	<footer>
 		<div class="footer">
 			<div class="container">
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</footer>
-	
+
 	<script src="{{ site.url }}/js/jquery.min.js"></script>
 	<script src="{{ site.url }}/js/bootstrap.min.js"></script>
 </body>
