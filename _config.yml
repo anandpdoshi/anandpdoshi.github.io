@@ -1,4 +1,6 @@
-name: Anand Doshi
+name: "Anand Doshi's Blog"
 pygments: true
 timezone: Asia/Kolkata
 markdown: kramdown
+description: "a book thief, software developer, day dreamer and more.."
+url: http://toughspirit.in
