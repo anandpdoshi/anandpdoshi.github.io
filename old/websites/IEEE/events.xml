@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+	<menu_item id="1">
+		<name>Prison Break</name>
+		<description>In this event, participants will get a first hand view of a jail. In the     
+ preliminary elimination round, the teams of 2 will be split up and each participant will be made to perform simple tasks which will then unite them. In the second round, participants will be given a key. After finding the appropriate treasure box, they will be locked in together in a jail. Here, they have to solve a code, the answer to which will open the numerical lock for the jail and finally they are a free bird. The finalist teams will then race against time to delete their database from existing police records. The problem is, it’s only your wits that will help you escape.</description>
+		<fees>Entry Fees : Rs. 20</fees>
+		<parti>Participation : Team of 2</parti>
+	</menu_item>	
+	<menu_item id="2">
+		<name>Legend of the Lost</name>
+		<description>This is an event that will pitch you against a number of opponents where time is just one of the enemies.
+The first round will be a paper based round wherein the participants have to find their way out of a lost city, consisting of an elimination for the second round. Round 2 will be decoding of a series of pictorial clues that will lead you to the maze of obstacles. Find your way through the darkness, avoiding patrolling guards and obstacles to retrieve the lost legend. 
+</description>
+		<fees>Entry Fees : Rs. 20</fees>
+		<parti>Participation : Team of 2</parti>
+	</menu_item>	
+	<menu_item id="3">
+		<name>The Triwizard Tournament</name>
+		<description>It is a fun event for die-hard Harry Potter fans. It consists of a first round of eliminations, having a combination of written as well as audio-visual quiz. It will be followed by a second round of a search for Horcruxes, which will be based on various clues. 
+</description>
+		<fees>Entry Fees : Rs. 20</fees>
+		<parti>Participation : Team of 2</parti>
+	</menu_item>	
+</events>

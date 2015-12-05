@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Techtrix '07 : General Rules for Robotics</title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #000000;
+	margin-left: 0px;
+}
+.oneColElsCtr #container {
+	width: 800px;
+	background: #FFFFFF; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	height: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.oneColElsCtr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+#apDiv1 {
+	position:absolute;
+	width:834px;
+	height:425px;
+	z-index:2;
+	left: 87px;
+	top: 394px;
+	background-color: #FEFACA;
+}
+#apDiv2 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 0;
+	top: 0;
+}
+#apDiv3 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:auto;
+	left: 187px;
+	top: 77px;
+}
+#apDiv4 {
+	position:absolute;
+	width:800px;
+	height:800px;
+	z-index:2;
+	background-color: #EEEEEE;
+}
+#apDiv5 {
+	position:inherit;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 0;
+	top: 0;
+}
+#apDiv6 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:5;
+}
+#apDiv7 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 60px;
+	top: 526px;
+}
+#apDiv8 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 264px;
+	top: 419px;
+}
+#apDiv9 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 275px;
+	top: 457px;
+	background-color: #FDEF4A;
+}
+#apDiv10 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 243px;
+	top: 475px;
+}
+#apDiv11 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 241px;
+	top: 480px;
+}
+#apDiv12 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 202px;
+	top: 448px;
+}
+#apDiv13 {
+	position:absolute;
+	width:432px;
+	height:271px;
+	z-index:2;
+	left: -17px;
+	top: 368px;
+}
+#apDiv14 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:4;
+	left: -1px;
+	top: 277px;
+}
+#apDiv15 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:6;
+	left: 578px;
+	top: 396px;
+}
+#apDiv16 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 296px;
+	top: 414px;
+}
+#apDiv17 {
+	position:absolute;
+	width:517px;
+	height:40px;
+	z-index:3;
+	left: 276px;
+	top: 427px;
+}
+#apDiv18 {
+	position:absolute;
+	width:450px;
+	height:31px;
+	z-index:1;
+	left: 302px;
+	top: 451px;
+}
+#apDiv19 {
+	position:absolute;
+	left:232px;
+	top:321px;
+	width:344px;
+	height:186px;
+	z-index:3;
+}
+#apDiv20 {
+	position:absolute;
+	left:133px;
+	top:595px;
+	width:319px;
+	height:177px;
+	z-index:3;
+}
+#apDiv21 {
+	position:absolute;
+	left:143px;
+	top:349px;
+	width:228px;
+	height:72px;
+	z-index:3;
+}
+#apDiv22 {
+	position:absolute;
+	left:173px;
+	top:232px;
+	width:417px;
+	height:56px;
+	z-index:4;
+}
+#apDiv23 {
+	position:absolute;
+	width:751px;
+	height:79px;
+	z-index:1;
+	left: 23px;
+	top: 249px;
+}
+-->
+</style>
+
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style2 {color: #000000}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #550000;
+	text-decoration: none;
+}
+a:active {
+	color: #880000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+#apDiv24 {
+	position:absolute;
+	width:464px;
+	height:68px;
+	z-index:2;
+	left: 312px;
+	top: 426px;
+}
+#apDiv25 {
+	position:absolute;
+	width:458px;
+	height:254px;
+	z-index:3;
+	left: 314px;
+	top: 535px;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	color: #000000;
+	vertical-align: middle;
+	display: inherit;
+	float: left;
+}
+#apDiv26 {
+	position:absolute;
+	width:102px;
+	height:125px;
+	z-index:4;
+	left: 59px;
+	top: 595px;
+}
+.style3 {
+	font-size: 14
+}
+.style6 {
+	font-size: 36px
+}
+.style7 {font-family: "Trebuchet MS"}
+.style8 {font-size: 14px}
+-->
+</style>
+</head>
+
+<body class="oneColElsCtr">
+<div id="container">
+  <div id="apDiv4">
+    <div id="apDiv6"><img src="Brainwaves/trix07-banner.gif" alt="Techtrix '07" width="800" height="800" border="0" usemap="#Map" />
+      <div id="apDiv25">
+        <div align="center" class="style3">
+          <div align="left">
+            <ul class="style8">
+              <li>The participant's robot should not damage the track or the opponent's bot in any way.</li>
+              <li>Final decision lies in the hands the event heads.</li>
+              <li>Maximum Dimensions of Robot : L = 30cm, B = 25cm</li>
+              <li>Maximum no. of members in a team is <strong>4</strong></li>
+              <li>Participants having wireless cars will have to submit their remote control when the enter college, if they come before their allotted time. This will ensure fair play.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="apDiv24">
+        <div align="center" class="style6"><span class="style7">GENERAL RULES</span> FOR ROBOTICS</div>
+      </div>
+      <map name="Map" id="Map">
+        <area shape="rect" coords="269,78,533,208" href="trix_index.html" alt="Techtrix Home" />
+</map>
+      <div id="apDiv23">
+        <div id="TabbedPanels1" class="TabbedPanels">
+          <ul class="TabbedPanelsTabGroup">
+            <li class="TabbedPanelsTab" tabindex="0">ROBOTICS</li>
+            <li class="TabbedPanelsTab" tabindex="0">TECHNICAL EVENTS</li>
+            <li class="TabbedPanelsTab" tabindex="0">NON-TECHNICAL EVENTS</li>
+            <li class="TabbedPanelsTab" tabindex="0">NIGHTS</li>
+            <li class="TabbedPanelsTab" tabindex="0">QUICK LINKS</li>
+          </ul>
+          <div class="TabbedPanelsContentGroup">
+              <div align="center" class="style2">
+                <div align="center"><br />
+                  | <strong>General rules	for robotics</strong> |<a href="F1.html"> F1 SPA Francorchamps </a>|<a href="Aquabotics.html"> AquaBotics </a>|<br />
+                  <br />
+|<a href="safari.html"> Night Safari </a>|<a href="dduel.html"> Desert Duel </a>| <a href="tug.html">Tug - O - Robot</a> |<a href="sumo.html"> Sumo Wrestling </a>|<br />
+<br />
+                </div>
+            </div>
+            <div class="TabbedPanelsContent">
+              <div align="center"><br />
+                |<a href="GRL.html"> Garage Racing Ltd. </a>|<a href="TPP.html"> Technical Paper Presentation </a>|<a href="OSoft.html"> Open Software </a>|<br />
+                <br />
+|<a href="VSM.html"> Virtual Stock Market </a>|<a href="Seminar.html"> Seminars </a>|<a href="CATGRE.html"> Mock CAT/GRE </a>|<a href="RConn.html"> THE RIGHT CONNECTIONS </a>|</div>
+            </div>
+            <div class="TabbedPanelsContent">
+              <div align="center"><br />
+                |<a href="Triwizard.html"> The Triwizard Tournament </a>|<a href="Flight.html"> Flight no. IC 814 </a>|<a href="PBreak.html"> Prison Break </a>|<a href="LOL.html"> Legend of the Lost </a>|<br />
+                <br />
+|<a href="MQuiz.html"> Mega Quiz </a>|<a href="10mins.html"> 10 mins 2 Fame </a>|<a href="FunZ.html"> FunZone </a>|<a href="Bowling.html"> Bowling </a>|<a href="oth.html"> OUTHOUSE TREASUREHUNT </a>|</div>
+            </div>
+            <div class="TabbedPanelsContent">
+              <div align="center"><br />
+                <a href="Acoustics.html">Acoustics</a><br />
+                <br />
+                <a href="DJnite.html">DJ NITE</a></div>
+            </div>
+            </div>
+        </div>
+</div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+</script>
+</body>
+</html>

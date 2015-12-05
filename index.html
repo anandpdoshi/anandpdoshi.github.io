@@ -2,22 +2,43 @@
 layout: default
 title: Anand Doshi
 ---
-<article>
-  <ul class="list-unstyled">
-    {% for post in site.posts %}
-      <li>
-		  <section>
-			  <h2 class="post-list-heading"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			  <p class="post-list-excerpt">{{ post.excerpt | strip_html }}</p>
-			  <small class="post-list-date text-muted">{{ post.date | date_to_long_string }}</small>
-		  </section>
-	  </li>
-    {% endfor %}
-  </ul>
-</article>
+<article class="home-page">
+  <p>
+    Hi. I am a generalist / software developer / CTO at Frappe Technologies.<br><br>
 
-<style>
-section {
-	margin-bottom: 3em;
-}
-</style>
+    On weekdays, I work on
+      <strong><a href="https://github.com/frappe/erpnext" target="_blank">ERPNext</a></strong>
+      and <strong><a href="https://github.com/frappe/frappe" target="_blank">Frappe Framework.</a></strong>
+      <br><br>
+
+    On weekends, I try to pursue my hobbies.<br><br><br>
+
+    Here are some links you might be interested in:
+    <ul class="list-unstyled home-page-links">
+      <li>
+        <strong>
+          <a href="https://github.com/anandpdoshi" target="_blank">
+            GitHub.com/anandpdoshi
+          </a>
+        </strong>
+      </li>
+      <li>
+        <strong>
+          <a href="http://anandpdoshi.deviantart.com/gallery/" target="_blank">
+            Photography
+          </a>
+        </strong>
+      </li>
+      <li>
+        <strong><a href="/blog">Blog</a></strong>
+      </li>
+      <li>
+        <strong>Old Work</strong>
+        <ul class="list-unstyled" style="margin-left: 30px;">
+          <li><strong><a href="/old">Portfolio</a></strong></li>
+          <li><strong><a href="/old/websites/IEEE">IEEE Website</a></strong></li>
+        </ul>
+      </li>
+    </ul>
+  </p>
+</article>
