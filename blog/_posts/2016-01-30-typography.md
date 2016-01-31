@@ -13,6 +13,8 @@ Before I even began writing this article in Pages, I obsessed over selecting the
 
 Kruti Saraiya is an experimental typographer with a focus on Indian languages. While studying at London college of Printing, her Japanese roommate was curious as to why her keyboard didn’t have keys in hindi. Most Indians, despite knowing at least two Indian languages, default to english due to our english medium education. This leaves little room to develop any appreciation, respect and pride for our languages, unlike the Japanese or the Germans, which Kruti encountered as classmates. Her experience at this multi-cultural classroom awakened her interest in Indian letterforms.
 
+---
+
 Once the projector was up and running, the first thing she asked was, what’s the difference between these two ways of writing ‘kruti’?
 
 <div class="text-center">
@@ -34,6 +36,8 @@ While most of us answered “Modern”, “Dynamic”, “Unique”, “Personal
 Browsing through her portfolio of commercial projects as well as experimental ones, she drove in the concept of how typography can be used to infuse context into words. Unlike a book which is meant to be read; advertisements, packaging, logos and posters are meant to evoke meaning at a glance and that’s where typography can play a big role. As words move from thought, to speech, to writing, to print and finally carved into stone; each step adds careful effort and thus more validity into the message. In a similar way, typography adds a higher validity to your message in contrast to simple text.
 
 During one of her anecdotes, Kruti mentioned how during her treks through the Himalayan forest, she would come across tibetan flags at random places. Soon after, when she was approached to design a book cover for a trekkers guide to the Himalayas, her own experiences helped her to incorporate those tibetan flags into the design, adding a nostalgic touch which she would have otherwise missed out on. Such creative sparks come out of experience. Sitting in a room the whole time and trying to be creative doesn’t work. *Creative comes from leading an interesting life.*
+
+---
 
 <figure>
 	<img src="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/design-day-type-talk/TYPE%20Talk%20discussion.jpg" class="img-responsive" title="Post talk discussions" alt="Post talk discussions"/>
