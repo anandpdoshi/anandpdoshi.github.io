@@ -11,7 +11,7 @@ Before I even began writing this article in Pages, I obsessed over selecting the
 	<figcaption>Photo Credits: Maker’s Asylum</figcaption>
 </figure>
 
-Kruti Saraiya is an experimental typographer with a focus on Indian languages. While studying at London college of Printing, her Japanese roommate was curious as to why her keyboard didn’t have keys in hindi. Most Indians, despite knowing at least two Indian languages, default to english due to our english medium education. This leaves little room to develop any appreciation, respect and pride for our languages, unlike the Japanese or the Germans, which Kruti encountered as classmates. Her experience at this multi-cultural classroom awakened her interest in Indian letterforms.
+[Kruti Saraiya](http://www.kruti99.com) is an experimental typographer with a focus on Indian languages. While studying at London college of Printing, her Japanese roommate was curious as to why her keyboard didn’t have keys in hindi. Most Indians, despite knowing at least two Indian languages, default to english due to our english medium education. This leaves little room to develop any appreciation, respect and pride for our languages, unlike the Japanese or the Germans, which Kruti encountered as classmates. Her experience at this multi-cultural classroom awakened her interest in Indian letterforms.
 
 ---
 
