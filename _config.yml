@@ -1,6 +1,6 @@
 name: "Anand Doshi's Blog"
-highlighter: true
+highlighter: rouge
 timezone: Asia/Kolkata
 markdown: kramdown
-description: "a book thief, software developer, day dreamer and more.."
+description: "generalist; programmer, front-end developer, system administrator, finisher"
 url: http://toughspirit.in
