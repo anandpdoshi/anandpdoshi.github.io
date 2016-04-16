@@ -1,10 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900);
+/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900);*/
 @import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic);
 
 body {
-	font-family: Lato, serif;
-	font-size: 2em;
+	font-family: 'Quattrocento Sans', serif;
+	font-size: 16px;
 	font-weight: 300;
+	line-height: 1.8;
 	color: #000;
 }
 
@@ -13,11 +15,10 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Playfair Display', sans-serif;
-	letter-spacing: -0.02em;
+	font-family: 'League Spartan', sans-serif;
 	text-rendering: optimizeLegibility;
 	font-weight: 900;
-	text-transform: capitalize;
+	line-height: 1.4;
 }
 
 a, a:hover, a:active, a:focus {
@@ -29,14 +30,17 @@ a, a:hover, a:active, a:focus {
 a:hover, a:focus, a:active {
 	background-image: linear-gradient(to bottom, transparent 50%, rgba(255, 207, 38, 0.5) 50%);
 	background-repeat: repeat-x;
-	background-size: 5% 15%;
-	background-position: 0 90%;
+	background-size: 5% 30%;
+	background-position: 0 100%;
 
 }
 
 p {
-	line-height: 1.5em;
 	margin-bottom: 1.5em;
+}
+
+blockquote p {
+	line-height: inherit;
 }
 
 .top-line {
@@ -54,14 +58,18 @@ p {
 }
 
 .header h1 {
-	margin-bottom: 0.1em;
-	font-size: 2em;
+	margin-bottom: 0px;
+	/*font-size: 2em;*/
 	font-weight: 900;
+}
+
+.post-list-heading {
+	margin-bottom: 0px;
 }
 
 .container {
 	padding: 10px 20px 15px 20px;
-	max-width: 700px;
+	max-width: 600px;
 }
 
 footer li {
@@ -99,4 +107,8 @@ figure * {
 
 .old .fotorama-wrapper {
 	padding: 15px;
+}
+
+ul, li {
+	margin: 15px 0px;
 }
