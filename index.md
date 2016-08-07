@@ -90,7 +90,9 @@ I am an upcoming UX designer and a graduate student at the [University of Michig
 	<li>
 		<a href="http://anandpdoshi.deviantart.com/gallery/" target="_blank">Photography</a>
 	</li>
-	
+	<li>
+		<a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/resume.pdf" target="_blank">Resumé</a>
+	</li>
 </ul>
 
 #### Get in touch
