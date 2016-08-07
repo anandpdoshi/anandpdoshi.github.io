@@ -1,42 +1,22 @@
-/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900);*/
-@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic);
+@import 'https://fonts.googleapis.com/css?family=Rubik:300,300i,500,500i&subset=latin-ext';
 
-body {
-	font-family: 'Quattrocento Sans', serif;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 1.8;
-	color: #000;
-}
 
 img {
 	max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'League Spartan', sans-serif;
-	text-rendering: optimizeLegibility;
-	font-weight: 900;
-	line-height: 1.4;
-}
-
 a, a:hover, a:active, a:focus {
-	color: #000;
+	color: inherit;
 	text-decoration: none;
+	border-bottom: 1px solid;
 }
 
-/* thanks medium: https://medium.com/designing-medium/crafting-link-underlines-on-medium-7c03a9274f9 */
-a:hover, a:focus, a:active {
-	background-image: linear-gradient(to bottom, transparent 50%, rgba(255, 207, 38, 0.5) 50%);
-	background-repeat: repeat-x;
-	background-size: 5% 30%;
-	background-position: 0 100%;
-
+a:hover, a:active, a:focus {
+	border-bottom-width: 2px;
 }
 
-p {
-	margin-bottom: 1.5em;
+blockquote {
+	font-style: italic;
 }
 
 blockquote p {
@@ -63,15 +43,6 @@ blockquote p {
 	font-weight: 900;
 }
 
-.post-list-heading {
-	margin-bottom: 0px;
-}
-
-.container {
-	padding: 10px 20px 15px 20px;
-	max-width: 600px;
-}
-
 footer li {
 	margin: 0.5em auto;
 }
@@ -87,10 +58,6 @@ figure figcaption {
 
 figure * {
 	color: #aaa !important;
-}
-
-.post-list-excerpt {
-	margin-bottom: 0.1em;
 }
 
 .home-page {
@@ -111,4 +78,122 @@ figure * {
 
 ul, li {
 	margin: 15px 0px;
+}
+
+.portfolio-items li {
+	padding: 60px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+.portfolio-items li:last-child {
+	border-bottom: none;
+}
+
+/* new css */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+/*	font-family: -apple-system, BlinkMacSystemFont,
+	    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+	    "Fira Sans", "Droid Sans", "Helvetica Neue",
+	    sans-serif;
+*/	font-family: 'Rubik', sans-serif;
+
+	font-size: 22px;
+	font-weight: 300 !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-list-heading {
+	font-family: 'League Spartan', sans-serif;
+	color: inherit;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.post-list-heading a {
+	border-bottom: none;
+}
+
+strong, b, .strong {
+	font-weight: 500;
+}
+
+.content {
+	padding: 120px 60px;
+	max-width: 700px;
+	margin: auto;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.content {
+		padding: 60px 30px;
+	}
+}
+
+hr {
+	height: 0;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin: 1.5rem 0px;
+    border: 0;
+    border-top: 1px solid;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+small,
+.small {
+	font-size: 0.75rem;
+}
+
+.text-muted {
+	opacity: 0.5;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.post-list-heading {
+	margin-bottom: 0;
+	width: auto;
+	font-size: 1rem;
+	display: inline;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.post-link {
+	border-bottom: none;
+}
+
+.post-date {
+	display: block;
+	margin-top: 0.425rem;
+}
+
+.portfolio .post-heading {
+	display: inline-block;
+}
+
+.caption {
+	display: inline-block;
+	margin: auto;
+	margin-top: 0.85rem;
+	margin-bottom: 2.55rem;
+}
+
+a.no-underline {
+	border-bottom: none;
 }

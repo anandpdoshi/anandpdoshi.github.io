@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On buying a TV
+published: false
 ---
 
 My previous TV was a 21" Philips PowerVision CRT model that didn't even have a flat screen. Yet, it produced sharp images with good contrast and brightness. It also had built-in woofer and surround-sound speakers that were powerful enough to be felt loud at 40% volume. 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Sun And The Rain
+excerpt: I experienced one of the most beautiful sights of nature on my way back to Mumbai
 ---
 
 Yesterday, I experienced one of the most beautiful sights of nature on my way back to Mumbai from Pune.

@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<small class="breadcrumb text-muted"><a href="/portfolio" style="border-bottom: none;">&lt; Portfolio</a></small>
+<article class="portfolio">
+	<h3 class="post-heading">{{ page.title }}</h3>
+	<p class="small post-date text-muted">
+		{{ page.date | date_to_long_string }}
+	</p>
+	<p>
+	{{ content }}
+	</p>
+</article>
+
+<style>
+body {
+	font-size: 18px;
+}
+
+</style>

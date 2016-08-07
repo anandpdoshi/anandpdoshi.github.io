@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On Writing, Donating, Four Movies And A Book
+published: false
 ---
 
 Writing good is hard. May be I am too focused on the good part. May be it is just about writing and the good comes when it wants to. May be that's the reason I find it difficult to write a blog.

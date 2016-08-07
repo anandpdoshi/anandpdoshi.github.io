@@ -1,10 +1,22 @@
 ---
-layout: default
+layout: base
 ---
+<small class="text-muted"><a href="/blog" style="border-bottom: none;">&lt; Blog</a></small>
 <article>
-	<h2 class="post-heading">{{ page.title }}</h2>
-	<small class="text-muted">{{ page.date | date_to_long_string }}</small>
+	<h3 class="post-heading">{{ page.title }}</h3>
+	<small class="post-date text-muted">
+		{{ page.date | date_to_long_string }}
+		{% if page.xpost %}
+		&mdash; from {{ page.xpost }}
+		{% endif %}
+	</small>
 	<p>
 	{{ content }}
 	</p>
 </article>
+
+<style>
+body {
+	font-size: 18px;
+}
+</style>

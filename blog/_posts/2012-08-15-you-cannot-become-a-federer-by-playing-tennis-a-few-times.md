@@ -1,6 +1,7 @@
 ---
 layout: post
-title: You Cannot Become A Federer By Playing Tennis A Few Times
+title: You cannot become a Federer by playing tennis a few times
+excerpt: It takes a long time to become good at something
 ---
 
 Like any average wannabe engineer, I joined a good engineering college under the University of Mumbai and opted for the branch of Electronics and Telecommunication, the most sought after branch by the herd (I still don't understand why). Each semester typically entailed attending hour long lectures (which would put [Professor Binns](http://harrypotter.wikia.com/wiki/Cuthbert_Binns) to shame), blindly copying content as assignments and aiming for high marks by discharging premeditated answers during exams. I ended up working at the great Indian software factory, which provided cheap services to sustain projects based on age-old technologies from going extinct.

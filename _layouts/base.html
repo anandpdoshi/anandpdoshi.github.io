@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/typography.css">
+	<link rel="stylesheet" href="/css/fonts/leaguespartan/stylesheet.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}"
+	      href="http://apd.is/feed.xml">
+	<title>{{ page.title }}</title>
+	{% if page.date %}
+	<meta http-equiv="date" content="{{ page.date | date_to_rfc822 }}" />
+	{% endif %}
+	{% if page.excerpt %}
+	<meta name="description" content="{{ page.excerpt | strip_html }}" />
+	{% endif %}
+</head>
+<body {% if page.background %} style="background: {{ page.background }}" {% endif %}>
+	<div class="container">
+		<div class="content" data-page="{{ page.name }}">
+			{{ content }}
+		</div>
+	</div>
+</body>
+</html>
