@@ -6,7 +6,7 @@ background: "#EAF9FF"
 
 ### Hi. I am Anand Doshi.
 
-I am an upcoming UX designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). While working at [Frappé](https://frappe.io/about), I got hooked to design, typography and open source. I would start my day reading [Hacker News](https://news.ycombinator.com) and [Designer News](https://designernews.co), and discuss anything interesting with my awesome colleagues. This culture of openness at Frappé shaped my work ethic and aesthetic tastes, and made me aware of my shortcomings. I think I have something unique to offer to the world, and I hope to realize my potential in the days to come.
+I am an upcoming UX designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). While working at [Frappé](https://frappe.io/about), I got hooked to design, typography and open source. I would start my day reading [Hacker News](https://news.ycombinator.com) and [Designer News](https://www.designernews.co/), and discuss anything interesting with my awesome colleagues. This culture of openness at Frappé shaped my work ethic and aesthetic tastes, and made me aware of my shortcomings. I think I have something unique to offer to the world, and I hope to realize my potential in the days to come.
 
 #### Latest Articles
 
