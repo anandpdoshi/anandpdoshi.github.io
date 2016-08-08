@@ -224,3 +224,8 @@ a.no-underline {
 .embed-responsive.embed-responsive-4by3 {
   padding-bottom: 75%;
 }
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
