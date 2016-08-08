@@ -8,6 +8,16 @@
   description: 'Cold Water'
   size: '2304x1536'
 
+- src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/large/marriage.JPG'
+  thumbnail: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/thumbnails/marriage.JPG'
+  description: 'Marriage'
+  size: '2256x1500'
+
+- src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/large/toran.JPG'
+  thumbnail: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/thumbnails/toran.JPG'
+  description: 'Toran'
+  size: '2256x1500'
+
 - src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/large/bird 3.JPG'
   thumbnail: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/thumbnails/bird 3.JPG'
   description: 'Bird 3'
@@ -202,3 +212,9 @@
   thumbnail: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/thumbnails/wild turkey.JPG'
   description: 'Wild Turkey'
   size: '2304x1536'
+
+- src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/large/seller.jpg'
+  thumbnail: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/thumbnails/seller.jpg'
+  description: 'Seller'
+  size: '1600x2290'
+
