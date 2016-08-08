@@ -88,7 +88,7 @@ I am an upcoming UX designer and a graduate student at the [University of Michig
 		<a href="https://in.linkedin.com/in/anandpdoshi" target="_blank">LinkedIn</a>
 	</li>
 	<li>
-		<a href="/photography" target="_blank">Photography</a>
+		<a href="/photography">Photography</a>
 	</li>
 	<li>
 		<a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/resume.pdf" target="_blank">Resumé</a>
