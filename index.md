@@ -4,9 +4,14 @@ title: Anand Doshi
 background: "#EAF9FF"
 ---
 
-<h3 class="hi">Hi. I am Anand Doshi.</h3>
+<h3 class="hi">
+	Hey!
+	I am Anand Doshi.
+</h3>
 
-I am an upcoming UX designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). While working at [Frappé](https://frappe.io/about), I got hooked to design, typography and open source. I would start my day reading [Hacker News](https://news.ycombinator.com) and [Designer News](https://www.designernews.co/), and discuss anything interesting with my awesome colleagues. This culture of openness at Frappé shaped my work ethic and aesthetic tastes, and made me aware of my shortcomings. I believe I have something unique to offer to the world, and hope to realize my potential in the days to come.
+I am an upcoming UX designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). Previously, I worked at [Frappé](https://frappe.io/about) and we made [ERPNext](https://github.com/frappe/erpnext), one of the best open source ERPs that exist today. There, I wore many hats: that of system administrator, developer, designer, debugger, mentor and trainer. Over the years, I became passionate about design, typography and user experience; So, I decided to go back to school to better understand what makes a great design. 
+
+I am a perfectionist and have a keen eye for noticing problems in advance. This quirk pushed me on my search for the best to-do app, until I gave up on to-dos and adopted the [calendar](http://www.moleskine.com/microsites/apps/timepage). I am still looking for the best coffee. 🙂
 
 #### Latest Articles
 
@@ -116,6 +121,41 @@ h4 {
 	margin-top: 3.4rem;
 }
 
+.hi {
+	cursor: help;
+	text-align: left;
+}
+
+.breathe {
+	-webkit-animation: breathe 7s ease-in-out infinite alternate;
+	-moz-animation:    breathe 7s ease-in-out infinite alternate;
+	-o-animation:      breathe 7s ease-in-out infinite alternate;
+	animation:         breathe 7s ease-in-out infinite alternate;
+}
+
+.breathe .hi {
+	-webkit-animation: shadow 3.5s ease-in-out infinite alternate;
+	-moz-animation:    shadow 3.5s ease-in-out infinite alternate;
+	-o-animation:      shadow 3.5s ease-in-out infinite alternate;
+	animation:         shadow 3.5s ease-in-out infinite alternate;
+}
+
+@keyframes breathe {
+	0% { background: #EAF9FF; }
+	50% { background: #FFF; }
+	100% { background: #EAF9FF; }
+}
+
+@-webkit-keyframes breathe {
+	0% { background: #EAF9FF; }
+	100% { background: #FFF; }
+}
+
+@-webkit-keyframes shadow {
+	0% { transform: scale(1, 1) translate(0, 0); }
+	100% { transform: scale(1.05, 1.05) translate(2.5%, 2.5%); }
+}
+
 @media(max-width: 767px) {
 	.hi {
 		font-size: 1.2rem;
@@ -125,6 +165,17 @@ h4 {
 </style>
 
 <script>
+$(function() {
+	$('.hi').hover(
+		function() {
+			$('body').addClass('breathe');
+		},
+		function() {
+			$('body').removeClass('breathe');
+		}
+	);
+});
+
 // var colors = [
 // 	{ background: '#fff', color: '#444'},
 // 	{ background: '#EAF9FF', color: '#444'},

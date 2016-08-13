@@ -17,11 +17,11 @@
 	{% endif %}
 </head>
 <body {% if page.background %} style="background: {{ page.background }}" {% endif %}>
+	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
 	<div class="container">
 		<div class="content" data-page="{{ page.name }}">
 			{{ content }}
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
 </body>
 </html>
