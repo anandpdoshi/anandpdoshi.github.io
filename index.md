@@ -9,7 +9,7 @@ background: "#EAF9FF"
 	I am Anand Doshi.
 </h3>
 
-I am an upcoming UX designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). Previously, I worked at [Frappé](https://frappe.io/about) and we made [ERPNext](https://github.com/frappe/erpnext), one of the best open source ERPs that exist today. There, I wore many hats: that of system administrator, developer, designer, debugger, mentor and trainer. Over the years, I became passionate about design, typography and user experience; So, I decided to go back to school to better understand what makes a great design. 
+I am an upcoming UX designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). Previously, I worked at [Frappé](https://frappe.io/about) and we made [ERPNext](https://github.com/frappe/erpnext), one of the best open source ERPs that exists today. Here, I wore many hats: that of system administrator, developer, designer, debugger, mentor and trainer. Over the years, I became passionate about design, typography and user experience; So, I decided to go back to school to better understand what makes a great design. 
 
 I am a perfectionist and have a keen eye for noticing problems in advance. This quirk pushed me on my search for the best to-do app, until I gave up on to-dos and adopted the [calendar](http://www.moleskine.com/microsites/apps/timepage). I am still looking for the best coffee. 🙂
 
