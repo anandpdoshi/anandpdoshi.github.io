@@ -5,7 +5,7 @@ background: "#EAF9FF"
 ---
 
 <h3 class="hi">
-	Hey!
+	Hi.
 	I am Anand Doshi.
 </h3>
 
