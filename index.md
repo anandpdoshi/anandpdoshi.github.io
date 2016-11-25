@@ -4,37 +4,23 @@ title: Anand Doshi
 background: "#EAF9FF"
 ---
 
+<!-- background: "#EAF9FF" -->
+
 <h3 class="hi">
 	Hi.
 	I am Anand Doshi.
 </h3>
 
-I am an upcoming UX designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). Previously, I worked at [Frappé](https://frappe.io/about) and we made [ERPNext](https://github.com/frappe/erpnext), one of the best open source ERPs that exists today. Here, I wore many hats: that of system administrator, developer, designer, debugger, mentor and trainer. Over the years, I became passionate about design, typography and user experience; So, I decided to go back to school to better understand what makes a great design. 
+I am an upcoming interaction designer and a graduate student at the [University of Michigan](https://www.si.umich.edu/academics/msi/human-computer-interaction-hci). Previously, I worked at [Frappé](https://frappe.io/about) and we made [ERPNext](https://github.com/frappe/erpnext), one of the best open source ERPs that exists today. Here, I wore many hats: that of system administrator, developer, designer, debugger, mentor and trainer. Over the years, I became passionate about user experience and interaction design; So, I decided to go back to school and learn more about it. 
 
-I am a perfectionist and have a keen eye for noticing problems in advance. This quirk pushed me on my search for the best to-do app, until I gave up on to-dos and adopted the [calendar](http://www.moleskine.com/microsites/apps/timepage). I am still looking for the best coffee. 🙂
+Just a few months into the program, I have worked on interactions using acoustic, inertial and visual motion tracking, interviewed clients and performed user research based on the principles of contextual inquiry, formally learned the fundamentals of graphic design, and have a general understanding of how human behavior affects user experience. Recently, I have been accepted into the Integrated Product Development  program (IPD), and will be working with a diverse team to produce and market a wearable device. Life is taking an exciting turn!
 
-#### Latest Articles
-
-{% assign posts = site.categories['blog'] %}
-<ul class="list-unstyled">
-	{% for i in (0..1) %}
-	{% assign post = posts[i] %}
-	<li>
-		<a href="{{ post.url }}">{{ post.title }}</a>
-	</li>
-	{% endfor %}
-	<li>
-		<small>
-			<a href="/blog">more</a>
-		</small>
-	</li>
-</ul>
 
 #### Design
 
 {% assign posts = site.categories['portfolio'] %}
 <ul class="list-unstyled">
-	{% for i in (0..1) %}
+	{% for i in (0..3) %}
 	{% assign post = posts[i] %}
 	<li>
 		<a href="{{ post.url }}">{{ post.title }}</a>
@@ -83,6 +69,23 @@ I am a perfectionist and have a keen eye for noticing problems in advance. This 
 	</li>
 </ul>
 
+#### Blog
+
+{% assign posts = site.categories['blog'] %}
+<ul class="list-unstyled">
+	{% for i in (0..3) %}
+	{% assign post = posts[i] %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
+	<li>
+		<small>
+			<a href="/blog">more</a>
+		</small>
+	</li>
+</ul>
+
 #### Links
 
 <ul class="list-unstyled">
@@ -122,70 +125,10 @@ h4 {
 }
 
 .hi {
-	cursor: help;
 	text-align: left;
 }
 
-.breathe {
-	-webkit-animation: breathe 7s ease-in-out infinite alternate;
-	-moz-animation:    breathe 7s ease-in-out infinite alternate;
-	-o-animation:      breathe 7s ease-in-out infinite alternate;
-	animation:         breathe 7s ease-in-out infinite alternate;
-}
 
-.breathe .hi {
-	-webkit-animation: shadow 3.5s ease-in-out infinite alternate;
-	-moz-animation:    shadow 3.5s ease-in-out infinite alternate;
-	-o-animation:      shadow 3.5s ease-in-out infinite alternate;
-	animation:         shadow 3.5s ease-in-out infinite alternate;
-}
-
-@keyframes breathe {
-	0% { background: #EAF9FF; }
-	50% { background: #FFF; }
-	100% { background: #EAF9FF; }
-}
-
-@-webkit-keyframes breathe {
-	0% { background: #EAF9FF; }
-	100% { background: #FFF; }
-}
-
-@-webkit-keyframes shadow {
-	0% { transform: scale(1, 1) translate(0, 0); }
-	100% { transform: scale(1.05, 1.05) translate(2.5%, 2.5%); }
-}
-
-@media(max-width: 767px) {
-	.hi {
-		font-size: 1.2rem;
-	}
-}
 
 </style>
 
-<script>
-$(function() {
-	$('.hi').hover(
-		function() {
-			$('body').addClass('breathe');
-		},
-		function() {
-			$('body').removeClass('breathe');
-		}
-	);
-});
-
-// var colors = [
-// 	{ background: '#fff', color: '#444'},
-// 	{ background: '#EAF9FF', color: '#444'},
-// 	// { background: '#d9d1ba', color: '#1a3657'},
-// 	// { background: '#1a3657', color: '#EAF9FF' },
-// 	// { background: '#111', color: '#f9f9f9' },
-// ];
-// var selected = colors[Math.floor(Math.random() * colors.length)];
-// document.body.style.background = selected.background;
-// document.body.style.color = selected.color;
-// document.body.style.fontWeight = selected.fontWeight || 300;
-
-</script>

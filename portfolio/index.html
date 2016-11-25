@@ -11,9 +11,9 @@ title: Portfolio of Anand Doshi
       <li>
 		  <section>
 			  	<a class="post-link" href="{{ post.url }}">
-		    	    <h3 class="post-list-heading">
+		    	    <p class="post-list-heading strong">
 		              {{ post.title }}
-		            </h3>
+		            </p>
 				    <p class="post-list-excerpt">{{ post.excerpt | strip_html }}</p>
 				</a>
 		  </section>
@@ -23,6 +23,10 @@ title: Portfolio of Anand Doshi
 </article>
 
 <style>
+.post-list-heading {
+    font-family: 'Rubik', sans-serif;
+}
+
 p {
 	margin-top: 0;
 	margin-bottom: 1.7rem;
