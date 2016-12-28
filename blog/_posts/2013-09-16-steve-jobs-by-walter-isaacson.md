@@ -3,6 +3,7 @@ layout: post
 title: Steve Jobs - by Walter Isaacson
 excerpt: Walter Isaacson does a brilliant job of writing this biography. It is meticulously researched and doesn't soften up Jobs' personality.
 xpost: '<a href="https://frappe.io/blog/book-reviews/steve-jobs-by-walter-isaacson" target="_blank">Frappé Blog</a>'
+src: /assets/images/201X/Steve_Jobs_by_Walter_Isaacson.jpg
 
 ---
 

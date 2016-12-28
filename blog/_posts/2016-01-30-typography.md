@@ -2,6 +2,7 @@
 layout: post
 title: "Typography: Giving Voice to Words"
 excerpt: Type Talk by Kruti Saraiya at Design Day Mumbai
+src: https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/design-day-type-talk/TYPE-1.jpg
 ---
 
 Before I even began writing this article in Pages, I obsessed over selecting the right font. You see, my writing is significantly affected by the personality of the typeface. The quality and tone turns out different if I type something in Proxima Nova in contrast to what I type in Lato or Adobe Caslon Pro. I am not sure why this happens. So, when I saw the post about the Type Talk on Design Day Mumbai’s Facebook page, I felt hopeful that it would unravel some of the mystery behind typography.

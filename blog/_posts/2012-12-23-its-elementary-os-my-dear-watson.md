@@ -2,6 +2,7 @@
 layout: post
 title: It's Elementary OS, my dear Watson
 excerpt: Elementary OS is a great alternative to MacOS
+src: http://i.imgur.com/jDTK4.png
 ---
 
 Last weekend, when I sent my mac for repairs, I brought home a spare office laptop to setup a development environment for my work on [ERPNext] [1]. I tried a few Linux distributions like Ubuntu, Mint and Sabayon, before I found a mention of [Elementary OS] [2] in one of the comments of [this article][5].

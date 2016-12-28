@@ -1,0 +1,64 @@
+.container {
+    clear: both;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+}
+
+.row .column-left {
+    padding: 0;
+    float: left;
+    width: auto;
+    padding-top: 3rem;
+    width: 100%;
+
+    /* hack */
+    min-height: 1px;
+}
+
+.row .column-right {
+    float: left;
+    width: auto;
+    padding: 0;
+    width: 100%;
+}
+
+@media (min-width: 76.8rem) {
+    .row .column-left {
+        padding-right: 1.5rem;
+        padding-bottom: 3rem;
+        text-align: right;
+
+        width: 25%;
+    }
+
+    .row .column-right {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 1.5rem;
+
+        width: 75%;
+    }
+}
+
+.heading-row .column-left {
+    padding-top: 0;
+}
+
+.heading-row .column-right {
+    padding-top: 3rem;
+}
+
+.heading-row .column-left, .heading-row .column-right {
+    padding-bottom: 0 !important;
+}
+
+.heading-row h5 {
+    margin: 0;
+}
+
+article {
+    max-width: 64rem;
+}

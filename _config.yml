@@ -5,3 +5,5 @@ markdown: kramdown
 description: "generalist; programmer, front-end developer, system administrator, finisher"
 url: http://apd.is
 permalink: none
+gems:
+  - jekyll-sitemap

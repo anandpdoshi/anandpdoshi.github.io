@@ -1,8 +1,10 @@
 ---
 layout: portfolio
 title: IHAA Logo Design
+heading: IHAA Logo Design
 excerpt: The process of designing a logo for International House, Ann Arbor
 category: portfolio
+src: https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/IHAA-logo-design/IHAA.png
 ---
 
 The client wished for an abstract logo for International House, Ann Arbor, because they were not certain about the name yet. 

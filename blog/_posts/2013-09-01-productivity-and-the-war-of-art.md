@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Productivity And The War Of Art
+src: /assets/images/the-war-of-art-cover.jpg
 ---
 
 Lately, I have had a series of unproductive days at work. I would prioritize small issues over important projects. After some discussions at office, we arrived at a possible cause. I was having my attention killed by recency effect. 

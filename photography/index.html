@@ -3,10 +3,6 @@ layout: base
 title: Photography
 ---
 
-<small class="text-muted text-center" style="display: block;"><a href="/" style="border-bottom: none;">&lt; Home</a></small>
-<h3 class="text-center">Photography</h3>
-
-
 <!-- Core CSS file -->
 <link rel="stylesheet" href="/js/lib/photoswipe/photoswipe.css">
 
@@ -18,38 +14,87 @@ title: Photography
 
 <style>
 
-figure {
-	margin: 3.4rem auto;
-}
+    figure {
+        margin: 0;
+        margin-bottom: -0.5rem;
+    }
 
-figure a, figure a:hover, figure a:focus, figure a:active {
-	border-bottom: none;
-}
+    .more {
+    	cursor: pointer;
+    }
 
-.more {
-	cursor: pointer;
-}
+    .masonry { /* Masonry container */
+        column-count: 2;
+        column-gap: 1.5rem;
+    }
+
+    .masonry .item { /* Masonry bricks or child elements */
+        display: inline-block;
+        margin: 0 0 1.5rem;
+        width: 100%;
+    }
+
+    .masonry {
+        margin: 1.5rem 0;
+        padding: 0;
+        -moz-column-gap: 1.5rem;
+        -webkit-column-gap: 1.5rem;
+        column-gap: 1.5rem;
+        font-size: .85em;
+    }
+
+    .masonry .item {
+        display: inline-block;
+        margin: 0 0 1.5rem;
+        width: 100%;
+    }
+
+    .masonry .item:hover,
+    .masonry .item:active,
+    .masonry .item:focus {
+        background: #f8f8f8;
+    }
+
+    .masonry .item img {
+        border-radius: 0.3rem;
+    }
+
+    @media (min-width: 48rem) {
+        .masonry { /* Masonry container */
+            column-count: 3;
+            column-gap: 1.5rem;
+        }
+    }
 
 </style>
 
-<div class="my-gallery text-center" itemscope itemtype="http://schema.org/ImageGallery">
+<div class="row">
+    <div class="column column-left">
+        <div class="bar"></div>
+        <label>Featured Photos</label>
+    </div>
+    <div class="column column-right">
+        <div class="my-gallery masonry" itemscope itemtype="http://schema.org/ImageGallery">
+            {% for photo in site.data.photography %}
 
-	{% for photo in site.data.photography %}
+            <!--
+            {% if forloop.index == 6 %}
+            <a onclick='$(".my-gallery a.hidden").removeClass("hidden"); $(this).remove();' class="more">More</a>
+            {% endif %}
 
-	{% if forloop.index == 6 %}
-	<a onclick='$("figure.hidden").removeClass("hidden"); $(this).remove();' class="more">More</a>
-	{% endif %}
+            {% if forloop.index > 5 %} hidden {% endif %}
+             -->
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"
-		{% if forloop.index > 5 %} class = "hidden" {% endif %}>
-        <a href="{{ photo.src }}" itemprop="contentUrl" data-size="{{ photo.size }}">
-            <img src="{{ photo.thumbnail }}" itemprop="thumbnail" alt="{{ photo.description }}" />
-        </a>
-        <!-- <figcaption itemprop="caption description">{{ photo.description }}</figcaption> -->
-    </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
+                <a href="{{ photo.src }}" itemprop="contentUrl" data-size="{{ photo.size }}" class="no-decoration">
+                    <img src="{{ photo.thumbnail }}" itemprop="thumbnail" alt="{{ photo.description }}" />
+                </a>
+                <!-- <figcaption itemprop="caption description">{{ photo.description }}</figcaption> -->
+            </figure>
 
-	{% endfor %}
-
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->

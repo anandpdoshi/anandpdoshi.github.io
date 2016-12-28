@@ -1,8 +1,10 @@
 ---
 layout: portfolio
 title: Virtual Pong
+heading: Virtual Pong
 excerpt: Interaction Based On Inertial Tracking
 category: portfolio
+src: https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI515/VirtualPong.jpg
 ---
 
 <figure>

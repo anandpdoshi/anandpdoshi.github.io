@@ -1,8 +1,10 @@
 ---
 layout: portfolio
 title: Sonic Pong
+heading: Sonic Pong
 excerpt: Interaction Based On Acoustic Tracking
 category: portfolio
+src: https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI515/SonicPong.png
 ---
 
 <figure>

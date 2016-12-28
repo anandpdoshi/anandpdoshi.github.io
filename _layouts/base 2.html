@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- <link rel="stylesheet" href="/css/typography.css"> -->
+    <!-- <link rel="stylesheet" href="/css/fonts/leaguespartan/stylesheet.css"> -->
+
+    <link rel="stylesheet" href="/css/milligram.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}"
+	      href="http://apd.is/feed.xml">
+	<title>{{ page.title }}</title>
+	{% if page.date %}
+	<meta http-equiv="date" content="{{ page.date | date_to_rfc822 }}" />
+	{% endif %}
+	{% if page.excerpt %}
+	<meta name="description" content="{{ page.excerpt | strip_html }}" />
+	{% endif %}
+</head>
+<body {% if page.background %} style="background: {{ page.background }}" {% endif %}>
+	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="column column-left">
+                <a href="/" class="no-decoration">
+                    <img src="/assets/images/logo.svg" class="logo">
+                </a>
+            </div>
+            <div class="column column-right">
+                <span class="text-muted tagline">Interaction Designer, <br class="visible-xs">
+                    Full-stack Developer</span>
+                <nav>
+                    <ul>
+                        <li><a href="">Design</a></li>
+                        <li><a href="">Code</a></li>
+                        <li><a href="">Photography</a></li>
+                        <li><a href="">Resumé</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+
+	<div class="container" data-page="{{ page.name }}">
+		{{ content }}
+	</div>
+</body>
+</html>

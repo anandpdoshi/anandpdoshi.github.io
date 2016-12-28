@@ -3,9 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/css/typography.css">
-	<link rel="stylesheet" href="/css/fonts/leaguespartan/stylesheet.css">
-	<link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/milligram.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/main.css">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}"
 	      href="http://apd.is/feed.xml">
 	<title>{{ page.title }}</title>
@@ -17,11 +19,73 @@
 	{% endif %}
 </head>
 <body {% if page.background %} style="background: {{ page.background }}" {% endif %}>
-	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
-	<div class="container">
-		<div class="content" data-page="{{ page.name }}">
-			{{ content }}
-		</div>
+    <div class="container nav-container">
+        <div class="row">
+            <div class="column-left">
+                <a href="/" class="no-decoration">
+                    <img src="/assets/images/logo.svg" class="logo hidden-sm">
+                    <!-- <span class="label alt-logo visible-sm">Anand <span class="text-muted">Doshi</span></span> -->
+                    <img src="/assets/images/logo-inline.svg" class="alt-logo visible-sm">
+                </a>
+            </div>
+            <div class="column-right">
+                <span class="text-muted tagline hidden-sm">Interaction Designer, Full-stack Developer</span>
+                <nav class="label">
+                    <ul>
+                        <li><a href="/portfolio">Design</a></li>
+                        <li><a href="/code">Code</a></li>
+                        <li><a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/resume.pdf" target="_blank">Resumé</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/photography">Photography</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <!-- <li><a href="/contact">Contact</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    {% if page.heading or page.heading=='' %}
+        {% assign heading = page.heading %}
+    {% else if page.title %}
+        {% assign heading = page.title %}
+    {% else %}
+        {% assign heading = layout.title %}
+    {% endif %}
+
+    {% if heading %}
+	<div class="container title-container" data-page="{{ page.name }}">
+        <div class="row heading-row">
+            <div class="column column-left"></div>
+            <div class="column column-right">
+                <h5>{{ heading }}</h5>
+            </div>
+            <div class="clearfix"></div>
+        </div>
 	</div>
+    {% endif %}
+
+	<div class="container content-container" data-page="{{ page.name }}">
+		{{ content }}
+	</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var pathname = document.location.pathname;
+            if (pathname[pathname.length - 1] === '/') {
+                pathname = pathname.slice(0, -1);
+            }
+
+            var nav = document.querySelectorAll('.nav-container nav');
+            if (nav.length) {
+                var link = nav[0].querySelectorAll('[href="' + pathname + '"]');
+                if (link.length) {
+                    link[0].classList.add('text-muted');
+                }
+            }
+
+        });
+    </script>
 </body>
 </html>
