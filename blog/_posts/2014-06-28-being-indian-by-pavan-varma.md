@@ -2,6 +2,7 @@
 layout: post
 title: Being Indian by Pavan Varma
 excerpt: In the book, Being Indian, Pavan Varma takes on this stupendous task of elucidating the general characteristics of the Indian populace.
+src: /assets/images/being-indian.jpg
 ---
 
 *“India is a difficult country to characterize, and Indians not easy to define, especially today when they are in transition, emerging from the shadows of history into the glare of a globalizing world.”*

@@ -1,0 +1,34 @@
+<div class="row link-row">
+    <div class="column column-left">
+        <div class="bar"></div>
+        <label>Links</label>
+    </div>
+    <div class="column column-right">
+        {% for link in site.data.links %}
+        <a href="{{ link.href }}" class="no-decoration">
+            <div class="item">
+                <label>{{ link.title }}</label>
+                <span class="text-muted">{{ link.pretty_url }}</span>
+            </div>
+
+        </a><br>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+    .link-row .column-right {
+        padding-top: 5.3rem;
+    }
+
+    .link-row .column-right label {
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    .link-row .column-right a {
+        display: inline-block;
+        margin-bottom: 3rem;
+    }
+
+</style>

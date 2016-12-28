@@ -3,6 +3,7 @@ layout: post
 title: Relationships between DocTypes in ERPNext
 excerpt: The visualization shows relationship between 50 DocTypes selected based on the frequency of occurrence of its link
 xpost: '<a href="https://frappe.io/blog/development/relationships-between-doctypes-in-erpnext" target="_blank">Frappé Blog</a>'
+src: /assets/images/201X/relationships-between-doctypes.png
 ---
 
 

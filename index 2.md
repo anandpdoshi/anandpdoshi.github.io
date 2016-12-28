@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Anand Doshi
-background: "#EAF9FF"
+//background: "#EAF9FF"
 ---
 
 <!-- background: "#EAF9FF" -->
@@ -129,6 +129,4 @@ h4 {
 }
 
 
-
 </style>
-

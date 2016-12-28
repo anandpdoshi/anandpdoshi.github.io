@@ -1,22 +1,22 @@
 ---
 layout: base
 ---
-<small class="text-muted"><a href="/blog" style="border-bottom: none;">&lt; Blog</a></small>
-<article>
-	<h3 class="post-heading">{{ page.title }}</h3>
-	<small class="post-date text-muted">
-		{{ page.date | date_to_long_string }}
-		{% if page.xpost %}
-		&mdash; from {{ page.xpost }}
-		{% endif %}
-	</small>
-	<p>
-	{{ content }}
-	</p>
-</article>
+<!-- <small class="breadcrumb text-muted"><a href="/portfolio" style="border-bottom: none;">&lt; Portfolio</a></small> -->
 
-<style>
-body {
-    font-size: 18px;
-}
-</style>
+<div class="row">
+    <div class="column column-left">
+        <div class="bar"></div>
+        <label>{{ page.date | date_to_long_string }}</label>
+		{% if page.xpost %}
+		from {{ page.xpost }}
+		{% endif %}
+    </div>
+    <div class="column column-right">
+        <article class="portfolio">
+        	<p>
+        	{{ content }}
+        	</p>
+        </article>
+    </div>
+    <div class="clearfix"></div>
+</div>

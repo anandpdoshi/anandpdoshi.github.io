@@ -1,8 +1,10 @@
 ---
 layout: portfolio
 title: News Explorer
-excerpt: Interaction Based On Visual Motion Tracking
+heading: News Explorer
+excerpt: Interaction based On visual motion tracking
 category: portfolio
+src: https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI515/news%20explorer.png
 ---
 
 <figure>

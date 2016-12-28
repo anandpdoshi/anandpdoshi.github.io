@@ -2,6 +2,7 @@
 layout: post
 title: Behind The Beautiful Forevers By Katherine Boo
 excerpt: "<p>Behind The Beautiful Forevers is a chronicle of events that took place between 2007-2011 at Annawadi, a slum that used to exist at the periphery of Mumbai's Sahar Airport</p>"
+src: /assets/images/behind-the-beautiful-forevers-cover.jpg
 ---
 
 > A lady in her mid-40s immolated herself. Neighbours put out the fire. She was taken to the hospital a few hours later by her husband. She died a week later.

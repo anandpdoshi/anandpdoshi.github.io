@@ -1,20 +1,23 @@
 ---
 layout: base
 ---
-<small class="breadcrumb text-muted"><a href="/portfolio" style="border-bottom: none;">&lt; Portfolio</a></small>
-<article class="portfolio">
-	<h3 class="post-heading">{{ page.title }}</h3>
-	<p class="small post-date text-muted">
-		{{ page.date | date_to_long_string }}
-	</p>
-	<p>
-	{{ content }}
-	</p>
-</article>
+<div class="row">
+    <div class="column column-left">
+        <div class="bar"></div>
+        <label>{{ page.date | date_to_long_string }}</label>
+        <p class="text-muted">
+            {{ page.excerpt | strip_html }}
+        </p>
+    </div>
+    <div class="column column-right">
+        <article class="portfolio">
+        	<p>
+        	{{ content }}
+        	</p>
+        </article>
+    </div>
+    <div class="clearfix"></div>
+</div>
 
-<style>
-body {
-	font-size: 18px;
-}
 
-</style>
+

@@ -3,6 +3,7 @@ layout: post
 title: A Wild Turkey
 excerpt: Photo of a wild turkey showing its plumage
 published: false
+src: /assets/images/photos/wild-turkey.jpg
 ---
 Saw this guy roaming around the yard, trying to attract a mate. The bright blue facial skin and the red wattle indicate that he is ready to breed.
 

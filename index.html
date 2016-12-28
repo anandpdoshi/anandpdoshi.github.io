@@ -1,0 +1,85 @@
+---
+layout: base
+title: Anand Doshi
+heading: ''
+---
+
+<!-- background: "#EAF9FF" -->
+
+<div class="row">
+    <div class="column column-left">
+        <div class="bar"></div>
+        <label>Featured Projects</label>
+    </div>
+    <div class="column column-right">
+        <div class="masonry">
+            {% for project in site.data.featured_projects %}
+            <a href="{{ project.href }}" class="no-decoration">
+                <div class="item">
+                    {{ project.title }} <br><br>
+                    <img src="{{ project.src }}" alt="{{ project.alt }}">
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% include links.html %}
+
+<style>
+    .masonry { /* Masonry container */
+        column-count: 2;
+        column-gap: 1em;
+    }
+
+    .masonry .item { /* Masonry bricks or child elements */
+        display: inline-block;
+        margin: 0 0 1em;
+        width: 100%;
+    }
+
+    .masonry {
+        margin: 1.5em 0;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+    }
+
+    .masonry .item {
+        display: inline-block;
+/*        background: #f8f8f8;*/
+        padding: 1em;
+        margin: 0 0 1.5em;
+        width: 100%;
+        border: 1px solid #eee;
+        border-radius: 0.3rem;
+    }
+
+    .masonry .item:hover,
+    .masonry .item:active,
+    .masonry .item:focus {
+        background: #f8f8f8;
+    }
+
+    .masonry .item img {
+        border-radius: 0.3rem;
+    }
+
+    @media (min-width: 48rem) {
+        .masonry { /* Masonry container */
+            column-count: 3;
+            column-gap: 1em;
+        }
+    }
+
+    @media (min-width: 76.8rem) {
+        .masonry { /* Masonry container */
+            column-count: 4;
+            column-gap: 1em;
+        }
+    }
+
+</style>

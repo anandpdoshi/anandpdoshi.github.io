@@ -1,8 +1,10 @@
 ---
 layout: portfolio
 title: Miscellaneous Designs
+heading: Miscellaneous Designs
 excerpt: Logos & Posters
 category: portfolio
+src: /assets/images/portfolio/misc-designs/frappe-blog.png
 ---
 
 <p class="text-center">

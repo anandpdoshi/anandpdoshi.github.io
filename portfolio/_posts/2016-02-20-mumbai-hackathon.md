@@ -1,8 +1,11 @@
 ---
 layout: portfolio
 title: Mumbai Hackathon
+heading: Mumbai Hackathon
 excerpt: Logo & T-Shirt
 category: portfolio
+src: /assets/images/portfolio/mumbai-hackathon/logo.svg
+img_style: 'width: 100%'
 ---
 
 [Mumbai Hackathon](https://mumbaihackathon.in/) was conceptualized by [Frappé](https://frappe.io/about) to promote open source software development. The first Mumbai Hackathon was hosted by Frappé and Don Bosco Institute of Technology on 26th March 2016. Participating teams developed 11 open source applications in 30 hours.

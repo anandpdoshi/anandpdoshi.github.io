@@ -1,38 +1,28 @@
 ---
 layout: base
 title: Portfolio of Anand Doshi
+heading: Design
 ---
-<small class="text-muted"><a href="/" style="border-bottom: none;">&lt; Home</a></small>
-<h3>Design</h3>
 
-<article>
-  <ul class="list-unstyled">
-    {% for post in site.categories['portfolio'] %}
-      <li>
-		  <section>
-			  	<a class="post-link" href="{{ post.url }}">
-		    	    <p class="post-list-heading strong">
-		              {{ post.title }}
-		            </p>
-				    <p class="post-list-excerpt">{{ post.excerpt | strip_html }}</p>
-				</a>
-		  </section>
-	  </li>
-    {% endfor %}
-  </ul>
-</article>
+{% for post in site.categories['portfolio'] %}
+    <a class="no-decoration post-link" href="{{ post.url }}">
+        <div class="row">
+            <div class="column column-left">
+                <div class="bar"></div>
+                <label>{{ post.title }}</label>
+            </div>
+            <div class="column column-right">
+                {{ post.excerpt | strip_html }}
+                <br>
+                <span class="text-muted small">{{ post.date | date_to_long_string }}</span><br><br>
+                {% if post.src %}
+                <div class="img-container">
+                    <img src="{{ post.src }}" alt="" {% if post.img_style %} style="{{ post.img_style }}" {% endif %}>
+                </div>
+                {% endif %}
 
-<style>
-.post-list-heading {
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-	margin-top: 0;
-	margin-bottom: 1.7rem;
-}
-
-section {
-	margin: 2.828rem 0;
-}
-</style>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </a>
+{% endfor %}
