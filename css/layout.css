@@ -62,3 +62,9 @@
 article {
     max-width: 64rem;
 }
+
+.content-container,
+.footer-container {
+    margin-bottom: 6rem;
+}
+

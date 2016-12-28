@@ -188,6 +188,10 @@ label, .label {
     margin-bottom: 0.5rem;
 }
 
+.bar.grey {
+    background-color: #BBBDBF;
+}
+
 hr {
     height: 0.4rem;
     width: 4rem;
