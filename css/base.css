@@ -205,10 +205,11 @@ hr {
 
 hr.line {
     height: 0;
+    width: 100%;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-	margin: 1.5rem 0px;
+	margin: 3rem 0px;
     border: 0;
     border-top: 1px solid;
 }
