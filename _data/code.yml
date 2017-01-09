@@ -22,7 +22,7 @@
 - title: 'Relationships between ERPNext DocTypes'
   description: 'Chord diagram using d3.js'
   href: 'http://bl.ocks.org/anandpdoshi/raw/5124686/'
-  src: 'http://localhost:4000/assets/images/201X/relationships-between-doctypes.png'
+  src: '/assets/images/201X/relationships-between-doctypes.png'
 
 - title: 'ERPNext World Presence in 2013'
   description: 'Using d3.js and GeoJSON data from GADM.org'
