@@ -6,7 +6,7 @@ category: portfolio
 src: /assets/others/contextual-inquiry/contextual-inquiry-student-life.png
 ---
 
-In this project, we used the process of Contextual Inquiry to collect data from interviews, analyze it and infer the problems with the collection of data and its use in fundraising by Student Life Development at the University of Michigan. I was involved in all stages of the process. <a href="/assets/others/contextual-inquery/Final Report - Student Life - by Design Forge.pdf" target="_blank">Read Full Report</a>
+In this project, we used the process of Contextual Inquiry to collect data from interviews, analyze it and infer the problems with the collection of data and its use in fundraising by Student Life Development at the University of Michigan. I was involved in all stages of the process. <a href="/assets/others/contextual-inquiry/Final Report - Student Life - by Design Forge.pdf" target="_blank">Read Full Report</a>
 
 <div>
     <strong>The Process</strong>
