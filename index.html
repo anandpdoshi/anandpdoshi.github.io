@@ -36,7 +36,8 @@ heading: ''
             <a href="{{ project.href }}" class="no-decoration">
                 <div class="item">
                     {{ project.title }} <br><br>
-                    <img src="{{ project.src }}" alt="{{ project.alt }}">
+                    <img src="{{ project.src }}" alt="{{ project.alt }}"
+                        {% if project.img_style %}style="{{ project.img_style }}"{% endif %}>
                 </div>
             </a>
             {% endfor %}
