@@ -51,11 +51,12 @@ html, body {
 
 
 h1, h2, h3, h4, h5, h6 {
-	color: inherit;
+	color: #000;
 /*    font-weight: 400;*/
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+	word-spacing: 0.2rem;
 }
 
 h1 a,
@@ -70,6 +71,10 @@ a.no-decoration {
 
 strong, b, .strong {
 	font-weight: 400;
+}
+
+h5 strong {
+	font-weight: 500;
 }
 
 .list-unstyled {
@@ -176,10 +181,12 @@ a.no-underline {
 label, .label {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+	word-spacing: 0.2rem;
     font-size: 0.85em;
     font-weight: 500;
     margin-bottom: 0px;
 	margin-top: -0.7rem;
+	color: #000;
 }
 
 .bar {
