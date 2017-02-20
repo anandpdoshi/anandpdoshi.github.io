@@ -6,32 +6,17 @@ heading: ''
 
 <!-- background: "#EAF9FF" -->
 
-<img src="/assets/images/anand-doshi-design-jam.jpg" class="rounded-image" style="margin-bottom: 3rem;">
-<br>
-
-<div class="row">
-    <div class="column column-left">
-        <!-- <div class="bar"></div> -->
-        <!-- <label>Hi, I am Anand</label> -->
-    </div>
-    <div class="column column-right">
-        <article style="margin-bottom: 3rem;">
-            <h5>I am a<br>
-                <strong>User Experience Design Student <br>
-                and a Full-stack Developer </strong><br>
-                based in Ann Arbor</h5>
-            <!-- <p>
-
-                I am a first year master's student of Human-Computer Interaction at the University of Michigan, School of Information. In my 2nd semester, I am taking courses in interaction design, needs assessment and usability evaluations, designing for our senses, and wearable product development.
-            </p>
-            <p>
-                I am looking for internships in UX Design, for summer 2017. If you have an opening, please consider looking at my portfolio and <a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/resume.pdf" target="_blank">resumé</a>.
-            </p> -->
-        </article>
+<div class="position: relative;">
+    <img src="/assets/images/anand-doshi-design-jam.jpg" class="rounded-image" style="margin-bottom: 3rem; z-index: 1;">
+    <div class="home-about-me">
+        <h5>I am a<br>
+            <strong>User Experience Design Student <br>
+            and a Full-stack Developer </strong><br>
+            based in Ann Arbor</h5>
     </div>
     <div class="clearfix"></div>
 </div>
-
+<br>
 
 <div class="row">
     <div class="column column-left">
@@ -93,6 +78,10 @@ heading: ''
         border-radius: 0.3rem;
     }
 
+    .home-about-me {
+        margin-left: 1rem;
+    }
+
     @media (min-width: 48rem) {
         .masonry { /* Masonry container */
             -moz-column-count: 3;
@@ -102,6 +91,32 @@ heading: ''
             -moz-column-gap: 1em;
             -webkit-column-gap: 1em;
             column-gap: 1em;
+        }
+
+        .home-about-me {
+            position: relative;
+            bottom: 15em;
+            left: 2em;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: auto;
+            display: inline-block;
+            padding: 3rem;
+            padding-bottom: 1rem;
+            margin-bottom: -17em;
+            float: left;
+            margin-left: 0;
+            border-radius: 0.2rem;
+        }
+
+        .home-about-me h5 {
+            color: #fff;
+        }
+    }
+
+    @media (min-width: 76.8rem) {
+        .home-about-me {
+            bottom: 17em;
         }
     }
 
