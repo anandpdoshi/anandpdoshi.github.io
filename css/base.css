@@ -42,9 +42,11 @@ html, body {
 	padding: 0px;
     font-family: 'Rubik', sans-serif;
 	font-weight: 300 !important;
-    color: #000;
+	color: #575757;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+	line-height: 1.8;
+	background: #f8f8f8;
 }
 
 
@@ -81,7 +83,7 @@ small,
 }
 
 .text-muted {
-	opacity: 0.35;
+	opacity: 0.6;
 
 }
 
@@ -177,16 +179,24 @@ label, .label {
     font-size: 0.85em;
     font-weight: 500;
     margin-bottom: 0px;
+	margin-top: -0.7rem;
 }
 
 .bar {
     height: 0.4rem;
     width: 4rem;
+/*	width: 100%;*/
     border-radius: 5rem;
     background-color: #000;
 
     display: inline-block;
+/*	display: none;*/
     margin-bottom: 0.5rem;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
 }
 
 .bar.grey {

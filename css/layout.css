@@ -1,5 +1,13 @@
 .container {
     clear: both;
+	margin: auto;
+	background: #fff;
+	padding: 2rem;
+	border-radius: 0.3rem;
+}
+
+.rounded-image {
+	border-radius: 0.2rem;
 }
 
 .row {
@@ -9,9 +17,7 @@
 
 .row .column-left {
     padding: 0;
-    float: left;
     width: auto;
-    padding-top: 3rem;
     width: 100%;
 
     /* hack */
@@ -19,7 +25,6 @@
 }
 
 .row .column-right {
-    float: left;
     width: auto;
     padding: 0;
     width: 100%;
@@ -28,9 +33,10 @@
 @media (min-width: 76.8rem) {
     .row .column-left {
         padding-right: 1.5rem;
+		padding-top: 3rem;
         padding-bottom: 3rem;
         text-align: right;
-
+		float: left;
         width: 25%;
     }
 
@@ -38,7 +44,7 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
         padding-left: 1.5rem;
-
+		float: left;
         width: 75%;
     }
 }
@@ -63,12 +69,17 @@ article {
     max-width: 64rem;
 }
 
-.content-container .column-right {
+.column-left, .column-right {
     max-width: 64rem;
+	margin: auto;
 }
 
-.content-container,
+/*.content-container,*/
 .footer-container {
     margin-bottom: 6rem;
+}
+
+.footer-container {
+	background: #f8f8f8;
 }
 

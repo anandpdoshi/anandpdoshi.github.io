@@ -6,6 +6,9 @@ heading: ''
 
 <!-- background: "#EAF9FF" -->
 
+<img src="/assets/images/anand-doshi.jpg" class="rounded-image" style="margin-bottom: 3rem;">
+<br>
+
 <div class="row">
     <div class="column column-left">
         <div class="bar"></div>
@@ -43,9 +46,12 @@ heading: ''
             {% endfor %}
         </div>
     </div>
+    <div class="clearfix"></div>
 </div>
 
 {% include links.html %}
+
+<div class="clearfix"></div>
 
 <style>
     .masonry { /* Masonry container */
@@ -92,6 +98,10 @@ heading: ''
             -webkit-column-gap: 1em;
             column-gap: 1em;
         }
+    }
+
+    .title-container {
+        display: none;
     }
 
 
