@@ -42,7 +42,8 @@ html, body {
 	padding: 0px;
     font-family: 'Rubik', sans-serif;
 	font-weight: 300 !important;
-	color: #575757;
+/*	color: #575757;*/
+	color: #000;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 	line-height: 1.8;
@@ -73,8 +74,14 @@ strong, b, .strong {
 	font-weight: 400;
 }
 
-h5 strong {
+h5 strong, .lead .strong, .lead strong {
 	font-weight: 500;
+}
+
+.lead {
+	text-transform: none;
+	letter-spacing: 0;
+	word-spacing: 0;
 }
 
 .list-unstyled {
@@ -88,7 +95,8 @@ small,
 }
 
 .text-muted {
-	opacity: 0.6;
+/*	opacity: 0.6;*/
+	opacity: 0.35;
 
 }
 
@@ -231,3 +239,13 @@ hr.line {
     border-top: 1px solid;
 }
 
+.appear-invisible {
+	opacity: 0;
+}
+
+.appear {
+	opacity: 1;
+	-webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}

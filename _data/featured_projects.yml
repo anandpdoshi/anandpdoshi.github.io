@@ -1,7 +1,12 @@
-- title: 'Contextual Inquiry: Student Life'
+- title: 'An inquiry in affinity based fundraising at Student Life'
   href: '/portfolio/contextual-inquiry-student-life.html'
   src: '/assets/others/contextual-inquiry/contextual-inquiry-student-life.png'
   alt: 'Student Life at the University of Michigan'
+
+- title: 'Data Visualization of relationships between DocTypes in ERPNext'
+  href: '/blog/relationship-between-doctypes-in-erpnext.html'
+  src: '/assets/images/201X/relationships-between-doctypes.png'
+  alt: 'Chord Diagram showing relationships between DocTypes'
 
 - title: 'Kinect: News Explorer'
   href: '/portfolio/visual-motion-tracking.html'
@@ -18,6 +23,11 @@
   src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI515/VirtualPong.jpg'
   alt: 'Schematic Diagram for Virtual Pong'
 
+- title: 'School of Information: Website Design'
+  href: '/portfolio/umsi-website-redesign.html'
+  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/umsi-website/umsi-logo.png'
+  alt: 'UMSI Logo'
+
 - title: 'Interactive Sine Wave'
   href: 'http://bl.ocks.org/anandpdoshi/raw/9f1ad2503f9da99b13090eb6502ace45/'
   src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/interactive-sine-wave.png'
@@ -27,11 +37,6 @@
   href: '/portfolio/ABC-poster.html'
   src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/ABC%20Poster%20-%20thumbnail.png'
   alt: 'Letter G'
-
-- title: 'School of Information: Website Design'
-  href: '/portfolio/umsi-website-redesign.html'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/umsi-website/umsi-logo.png'
-  alt: 'UMSI Logo'
 
 - title: 'Chart Builder'
   href: 'https://github.com/anandpdoshi/chart-builder'

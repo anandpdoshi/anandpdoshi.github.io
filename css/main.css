@@ -128,3 +128,9 @@ nav a {
         background: #fff;
     }
 }
+
+.timeline li {
+	position: relative;
+	margin: 4rem 0;
+	list-style-type: disc;
+}

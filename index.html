@@ -8,7 +8,7 @@ heading: ''
 
 <div class="position: relative;">
     <img src="/assets/images/anand-doshi-design-jam.jpg" class="rounded-image" style="margin-bottom: 3rem; z-index: 1;">
-    <div class="home-about-me">
+    <div class="home-about-me appear-invisible">
         <h5>I am a<br>
             <strong>User Experience Design Student <br>
             and a Full-stack Developer </strong><br>
@@ -126,3 +126,16 @@ heading: ''
 
 
 </style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            var element = document.querySelectorAll('.appear-invisible');
+            if (element.length) {
+                element[0].classList.remove('appear-invisible');
+                element[0].classList.add('appear');
+            }
+
+        }, 300);
+    });
+</script>

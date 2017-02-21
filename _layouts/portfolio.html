@@ -4,10 +4,13 @@ layout: base
 <div class="row">
     <div class="column column-left">
         <div class="bar"></div>
-        <label>{{ page.date | date_to_long_string }}</label>
+        <label>{{ page.date | date: "%B %Y" }}</label>
+        {% if page.sidebar %}
+        <br>
         <p class="text-muted">
-            {{ page.excerpt | strip_html }}
+            {{ page.sidebar | strip_html }}
         </p>
+        {% endif %}
     </div>
     <div class="column column-right">
         <article class="portfolio">
