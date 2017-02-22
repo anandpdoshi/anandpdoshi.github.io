@@ -129,8 +129,12 @@ nav a {
     }
 }
 
-.timeline li {
+.timeline > li {
 	position: relative;
 	margin: 4rem 0;
 	list-style-type: disc;
+}
+
+.timeline strong:first-child {
+	font-weight: 500;
 }
