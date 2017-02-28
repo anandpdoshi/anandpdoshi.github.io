@@ -28,7 +28,9 @@ heading: ''
             {% for project in site.data.featured_projects %}
             <a href="{{ project.href }}" class="no-decoration">
                 <div class="item">
-                    {{ project.title }} <br><br>
+                    {% if project.tag %}<span class="small tag">{{ project.tag }}</span><br>{% endif %}
+                    {{ project.title }}
+                    <br><br>
                     <img src="{{ project.src }}" alt="{{ project.alt }}"
                         {% if project.img_style %}style="{{ project.img_style }}"{% endif %}>
                 </div>
@@ -68,10 +70,25 @@ heading: ''
         border-radius: 0.3rem;
     }
 
+    .masonry .item .tag {
+        background: #f8f8f8;
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        display: inline-block;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+
     .masonry .item:hover,
     .masonry .item:active,
     .masonry .item:focus {
         background: #f8f8f8;
+    }
+
+    .masonry .item:hover .tag,
+    .masonry .item:active .tag,
+    .masonry .item:focus .tag {
+        background: #fff;
     }
 
     .masonry .item img {
@@ -123,7 +140,6 @@ heading: ''
     .title-container {
         display: none;
     }
-
 
 </style>
 
