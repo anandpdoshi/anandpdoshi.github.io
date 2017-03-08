@@ -18,9 +18,24 @@ layout: base
         	{{ content }}
         	</p>
         </article>
+
+        <div class="page-navigation">
+          {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}">Next, {{page.previous.title}}</a> →
+          {% endif %}
+        </div>
     </div>
     <div class="clearfix"></div>
 </div>
+
+<style>
+.page-navigation {
+    text-align: right;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+</style>
 
 
 
