@@ -19,11 +19,12 @@ layout: base
         	</p>
         </article>
 
+      {% if page.previous.url and page.previous.categories contains "portfolio" %}
         <div class="page-navigation">
-          {% if page.previous.url %}
+
             <a class="prev" href="{{page.previous.url}}">Next, {{page.previous.title}}</a> →
-          {% endif %}
         </div>
+      {% endif %}
     </div>
     <div class="clearfix"></div>
 </div>
