@@ -3,7 +3,7 @@ layout: portfolio
 title: Empathy Glove
 excerpt: A product of critical making
 category: portfolio
-src: https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/empathy-glove/empathy-glove.JPG
+src: /assets/others/toughspirit-blog-files/portfolio/umsi/empathy-glove/empathy-glove.JPG
 ---
 
 <!-- 4:3 aspect ratio -->

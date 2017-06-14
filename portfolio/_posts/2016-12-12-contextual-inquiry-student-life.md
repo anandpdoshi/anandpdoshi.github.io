@@ -37,8 +37,8 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
        </p>
        
        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting.jpg" itemprop="contentUrl" data-size="2013x1080" class="no-decoration" target="_blank">
-               <img src="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting-thumbnail.jpg" itemprop="thumbnail" alt="Our team with the client" />
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting.jpg" itemprop="contentUrl" data-size="2013x1080" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting-thumbnail.jpg" itemprop="thumbnail" alt="Our team with the client" />
            </a>
        </figure>
    </li> 
@@ -66,8 +66,8 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
        </p>
        
        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/background-research.jpg" itemprop="contentUrl" data-size="2000×1125" class="no-decoration" target="_blank">
-               <img src="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/background-research-thumbnail.jpg" itemprop="thumbnail" alt="About Student Life" />
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/background-research.jpg" itemprop="contentUrl" data-size="2000×1125" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/background-research-thumbnail.jpg" itemprop="thumbnail" alt="About Student Life" />
            </a>
        </figure>
        
@@ -96,8 +96,8 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
        The most demanding, yet exhilarating task was making the Affinity Wall. We hand picked over 400 notes from our interpretation of interviews and went about making sense of the situation. As we grouped related content, we could see patterns emerging that we had not anticipated. Not only the flow of information became much clearer, we could also see that <strong>the problem in its simplest form was related to lack of transparency and collaboration.</strong>
        
        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall.jpg" itemprop="contentUrl" data-size="2000×716" class="no-decoration" target="_blank">
-               <img src="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall-thumbnail.jpg" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall.jpg" itemprop="contentUrl" data-size="2000×716" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall-thumbnail.jpg" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
            </a>
        </figure>
    </li>
@@ -106,14 +106,14 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
        Once we identified the overarching problem, we decided to visualize the map of information flow and how we can structure our brainstorming session around it. We were still not fed up of using stickies, and quickly came up with several primary as well as secondary recommendations for each stakeholder.
               
        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" itemprop="contentUrl" data-size="2700×3450" class="no-decoration" target="_blank">
-               <img src="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" itemprop="contentUrl" data-size="2700×3450" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
            </a>
        </figure>
        
        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" itemprop="contentUrl" data-size="1752×966" class="no-decoration" target="_blank">
-               <img src="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" itemprop="contentUrl" data-size="1752×966" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
            </a>
        </figure>
    </li>

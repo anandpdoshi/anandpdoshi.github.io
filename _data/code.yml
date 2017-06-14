@@ -1,13 +1,13 @@
 - title: 'ERPNext'
   description: 'ERP made simple'
   href: 'https://github.com/frappe/erpnext'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/erp-icon.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/erp-icon.png'
   img_style: 'width: 100px'
 
 - title: 'Frappé'
   description: 'Web application framework in Python, Javascript & MariaDB'
   href: 'https://github.com/frappe/frappe'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/frappe-bird-grey.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/frappe-bird-grey.png'
   img_style: 'width: 100px'
 
 - title: 'Bench'
@@ -17,7 +17,7 @@
 - title: 'Central'
   description: 'One click deployment for the Frappé team'
   href: 'https://frappe.io/blog/development/deployment-for-everyone'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/central.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/central.png'
 
 - title: 'Relationships between ERPNext DocTypes'
   description: 'Chord diagram using d3.js'
@@ -27,15 +27,15 @@
 - title: 'ERPNext World Presence in 2013'
   description: 'Using d3.js and GeoJSON data from GADM.org'
   href: 'http://bl.ocks.org/anandpdoshi/raw/5260254/#/worldmap'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/erpnext-world-presence.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/erpnext-world-presence.png'
 
 - title: 'Chart Builder'
   description: 'Using ChartJS and SlickGrid'
   href: 'https://github.com/anandpdoshi/chart-builder'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/chart-builder.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/chart-builder.png'
 
 - title: 'Interactive Sine Wave'
   description: 'Using Paper.js'
   href: 'http://bl.ocks.org/anandpdoshi/raw/9f1ad2503f9da99b13090eb6502ace45/'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/interactive-sine-wave.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/interactive-sine-wave.png'
 

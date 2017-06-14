@@ -18,43 +18,43 @@
 
 - title: 'Kinect: News Explorer'
   href: '/portfolio/visual-motion-tracking.html'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI515/news%20explorer.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/umsi/SI515/news%20explorer.png'
   alt: 'Schematic Diagram for News Explorer'
   tag: 'Interaction Design'
 
 - title: 'IHAA: Logo Design and Identity Guide'
   href: '/portfolio/IHAA-logo-design.html'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/IHAA-logo-design/IHAA.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/umsi/SI520/IHAA-logo-design/IHAA.png'
   alt: 'IHAA Logo'
   tag: 'Visual Design'
 
 - title: 'Virtual Pong'
   href: '/portfolio/inertial-tracking.html'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI515/VirtualPong.jpg'
+  src: '/assets/others/toughspirit-blog-files/portfolio/umsi/SI515/VirtualPong.jpg'
   alt: 'Schematic Diagram for Virtual Pong'
   tag: 'Interaction Design'
 
 - title: 'School of Information: Website Design'
   href: '/portfolio/umsi-website-redesign.html'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/umsi-website/umsi-logo.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/umsi/SI520/umsi-website/umsi-logo.png'
   alt: 'UMSI Logo'
   tag: 'Visual Design'
 
 - title: 'Interactive Sine Wave'
   href: 'http://bl.ocks.org/anandpdoshi/raw/9f1ad2503f9da99b13090eb6502ace45/'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/interactive-sine-wave.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/interactive-sine-wave.png'
   alt: ''
   tag: 'Interaction Design'
 
 - title: 'ABC Poster: Designed by Nature'
   href: '/portfolio/ABC-poster.html'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/ABC%20Poster%20-%20thumbnail.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/umsi/SI520/ABC%20Poster%20-%20thumbnail.png'
   alt: 'Letter G'
   tag: 'Visual Design'
 
 - title: 'Chart Builder'
   href: 'https://github.com/anandpdoshi/chart-builder'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/chart-builder.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/chart-builder.png'
   alt: ''
   tag: 'Data Visualization'
 
@@ -66,27 +66,27 @@
 
 - title: 'ERPNext: One of the best Open Source ERPs in the world'
   href: 'https://github.com/frappe/erpnext'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/erp-icon.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/erp-icon.png'
   alt: ''
   img_style: 'max-width: 100px; position: relative; left: 50%; transform: translate3d(-50%, 0, 0);'
   tag: 'Code'
 
 - title: 'Frappé Framework: Open Source Web Application Framework'
   href: 'https://github.com/frappe/frappe'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/frappe-bird-grey.png'
+  src: '/assets/others/toughspirit-blog-files/portfolio/frappe-bird-grey.png'
   alt: ''
   img_style: 'max-width: 100px; position: relative; left: 50%; transform: translate3d(-50%, 0, 0);'
   tag: 'Code'
 
 - title: 'Typography: Giving voice to words'
   href: '/blog/typography.html'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/design-day-type-talk/TYPE-1.jpg'
+  src: '/assets/others/toughspirit-blog-files/design-day-type-talk/TYPE-1.jpg'
   alt: ''
   tag: 'Blog'
 
 - title: 'Photography'
   href: '/photography/#&gid=1&pid=1'
-  src: 'https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/photography/thumbnails/innocense.JPG'
+  src: '/assets/others/toughspirit-blog-files/photography/thumbnails/innocense.JPG'
   alt: ''
 
 # Empathy Glove

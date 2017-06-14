@@ -99,7 +99,7 @@ Just a few months into the program, I have worked on interactions using acoustic
 		<a href="/photography">Photography</a>
 	</li>
 	<li>
-		<a href="https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/resume.pdf" target="_blank">Resumé</a>
+		<a href="/assets/others/toughspirit-blog-files/resume.pdf" target="_blank">Resumé</a>
 	</li>
 </ul>
 

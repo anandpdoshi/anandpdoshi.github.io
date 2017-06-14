@@ -3,7 +3,7 @@ layout: portfolio
 title: Copyright Law
 excerpt: A presentation on Copyright Law for Visual Materials
 category: portfolio
-src: https://dl.dropboxusercontent.com/u/29814148/toughspirit-blog-files/portfolio/umsi/SI520/copyright-law.png
+src: /assets/others/toughspirit-blog-files/portfolio/umsi/SI520/copyright-law.png
 ---
 
 <!-- 4:3 aspect ratio -->
