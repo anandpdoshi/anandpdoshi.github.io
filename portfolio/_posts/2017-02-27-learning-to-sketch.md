@@ -1,9 +1,9 @@
 ---
 layout: portfolio
-title: "Learning to Sketch: Interaction Design (WIP)"
+title: "SketchPad: Interaction Design"
 excerpt: "Designing a tool that teaches you how to sketch"
 category: portfolio
-src: /assets/others/learning-to-sketch/phase2-sketches-2-thumbnail.jpg
+src: /assets/others/learning-to-sketch/SketchPad Splash Screen thumbnail.png
 ---
 
 
@@ -13,9 +13,19 @@ src: /assets/others/learning-to-sketch/phase2-sketches-2-thumbnail.jpg
 
 <p class="text-muted">
     Project Scope: Research, Personas, Sketching, Prototyping, Presentation<br>
-    Course: Introduction to Interaction Design<br>
-    Status: In Progress
+    Course: Introduction to Interaction Design
 </p>
+
+
+<!-- https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen -->
+
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item"
+    style="margin-bottom: 15px;">
+   <a href="https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen" itemprop="contentUrl" data-size="1024x768" class="no-decoration" target="_blank">
+       <img src="/assets/others/learning-to-sketch/SketchPad Splash Screen.png" itemprop="thumbnail" alt="SketchPad Splash Screen" />
+   </a>
+   <figcaption><a href="https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen" target="_blank">Click to see: Digital Prototype on Invision</a></figcaption>
+</figure>
 
 <div class="bar"></div>
 <label>Summary</label>
@@ -199,9 +209,72 @@ In this project, I aim to design a tool that helps you to continue learning how 
    </li>
    
    <li>
-       <strong>Next Steps:</strong> Paper Prototype, Hi-fi Prototype
+       <strong>Story Map</strong><br>
+       
+       <p>
+           This involved creating a set of tasks and a narrative flow for how the application will be used by the primary persona, as well as the variations based on secondary ones. Through this process, I realized that the application should have the ability to be used during short breaks. I came back to this insight later during the final prototype.
+       </p>
+       
+       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
+           <a href="/assets/others/learning-to-sketch/story-map.jpg" itemprop="contentUrl" class="no-decoration" target="_blank">
+               <img src="/assets/others/learning-to-sketch/story-map-thumbnail.jpg" itemprop="thumbnail" alt="Story Map" />
+           </a>
+           <figcaption><a href="/assets/others/learning-to-sketch/story-map.pdf" target="_blank">For a readable version, click to see: Story Map Document</a></figcaption>
+       </figure>
    </li>
    
+   <li>
+       <strong>Questions, Options and Constraints (QOC)</strong><br>
+       
+       <p>
+           In this uncommon step, I used the sketches, personas and story map as the base for considering the design of one critical feature and 3 different approaches to this feature. This was helpful in thinking about the details of the feature, but most of these ideas were discarded at the paper prototype and digital prototype stages, because of the feedback I received from my peer group.
+       </p>
+       
+       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
+           <a href="/assets/others/learning-to-sketch/qoc.png" itemprop="contentUrl" class="no-decoration" target="_blank">
+               <img src="/assets/others/learning-to-sketch/qoc.png" itemprop="thumbnail" alt="Quality, Options and Constrains" />
+           </a>
+           <figcaption><a href="/assets/others/learning-to-sketch/QOC Analysis.pdf" target="_blank">For a readable version, click to see: QOC Analysis Document</a></figcaption>
+       </figure>
+   </li>
+   
+   <li>
+       <strong>Paper Prototype</strong><br>
+       
+       <p>
+           This was a fun assignment, that pushed me to give form to the ideas in my mind. The draft paper prototype was critiqued by my peer group, and based on their feedback, I created the final paper prototype. I discarded the idea of having a multi-player sketching game, and changed it to single player, with personal goals and leaderboard.
+       </p>
+       
+       <!-- 4:3 aspect ratio -->
+       <div class="embed-responsive embed-responsive-16by9" style="padding-bottom: 73.8%;">
+         <iframe class="embed-responsive-item" 
+             src="https://www.youtube.com/embed/VwxhKYdj43E?modestbranding=1&rel=0&showinfo=0"
+             frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+       </div>
+   </li>
+   
+   <li>
+       <strong>Digital Prototype</strong><br>
+       
+       <p>
+           In the high-fidelity digital prototype, I incorporated the feedback I received during the paper prototype stage, and used a 'sketch' like aesthetics for its visual design. I envisioned it to be used on touch screen devices, and the design to be OS agnostic, similar to how games are designed on mobile and tablet platforms. Due to time constrains, I was only able to create one interaction for mobile form factor.
+       </p>
+       
+       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item" style='margin-bottom: 30px;'>
+           <a href="https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen" itemprop="contentUrl" class="no-decoration" target="_blank">
+               <img src="/assets/others/learning-to-sketch/SketchPad Goals.png" itemprop="thumbnail" alt="SketchPad Digital Prototype" 
+                   style='border: 1px solid #aaa;'/>
+           </a>
+           <figcaption><a href="https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen" target="_blank">Click to see: Digital Prototype for Tablets on Invision</a></figcaption>
+       </figure>
+       
+       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
+           <a href="https://projects.invisionapp.com/share/QCCT8RTZ4#/screens/229532037_Owl_-_Step_0_Phone" itemprop="contentUrl" class="no-decoration" target="_blank">
+               <img src="/assets/others/learning-to-sketch/Owl - Step 4 Phone.png" itemprop="thumbnail" alt="SketchPad Digital Prototype" style='display: block; margin: auto; border: 1px solid #aaa;'/>
+           </a>
+           <figcaption><a href="https://projects.invisionapp.com/share/QCCT8RTZ4#/screens/229532037_Owl_-_Step_0_Phone" target="_blank">Click to see: Digital Prototype for Mobiles on Invision</a></figcaption>
+       </figure>
+   </li>
 </ul>
 
 

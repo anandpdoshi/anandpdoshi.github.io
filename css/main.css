@@ -143,3 +143,13 @@ nav a {
 .timeline strong:first-child {
 	font-weight: 500;
 }
+
+.content-container {
+    position: relative;
+}
+
+.hero-full-width {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
