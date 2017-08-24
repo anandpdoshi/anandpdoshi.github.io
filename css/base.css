@@ -1,4 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i&subset=latin-ext';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700');
+/*@import 'https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i&subset=latin-ext';*/
 
 
 img {
@@ -40,21 +41,27 @@ figure * {
 html, body {
 	margin: 0px;
 	padding: 0px;
-    font-family: 'Rubik', sans-serif;
+/*    font-family: 'Rubik', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300 !important;
 /*	color: #575757;*/
-	color: #000;
+	color: #313131;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-	line-height: 1.8;
+/*    line-height: 1.8;*/
 	background: #f8f8f8;
+}
+
+body {
+    font-size: 1.8rem;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
 	color: #000;
 /*    font-weight: 400;*/
-    font-family: 'Rubik', sans-serif;
+/*    font-family: 'Rubik', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 	word-spacing: 0.2rem;
@@ -71,17 +78,28 @@ a.no-decoration {
 }
 
 strong, b, .strong {
-	font-weight: 400;
+	font-weight: 500;
 }
 
-h5 strong, .lead .strong, .lead strong {
+h5 strong {
 	font-weight: 500;
+}
+
+.lead .strong, .lead strong {
+    font-weight: inherit;
 }
 
 .lead {
 	text-transform: none;
 	letter-spacing: 0;
 	word-spacing: 0;
+
+    background: -webkit-linear-gradient(90deg, rgb(218, 109, 127), rgb(138, 96, 149));
+    background: -o-linear-gradient(90deg, rgb(218, 109, 127), rgb(138, 96, 149));
+    background: linear-gradient(90deg, rgb(218, 109, 127), rgb(138, 96, 149));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .list-unstyled {

@@ -86,7 +86,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     // parse slide data (url, title, size ...) from DOM elements
     // (children of gallerySelector)
     var parseThumbnailElements = function(el) {
-        var thumbElements = el.childNodes,
+        var thumbElements = el.querySelectorAll('figure.item'),
             numNodes = thumbElements.length,
             items = [],
             figureEl,
@@ -154,10 +154,17 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             return;
         }
 
+        var clickedGallery = closest(clickedListItem, function(el) {
+            return [].indexOf.call(galleryElements, el)!==-1;
+        });
+
+        if(!clickedGallery) {
+            return;
+        }
+
         // find index of clicked item by looping through all child nodes
         // alternatively, you may define index via data- attribute
-        var clickedGallery = clickedListItem.parentNode,
-            childNodes = clickedListItem.parentNode.childNodes,
+        var childNodes = clickedGallery.querySelectorAll('figure.item'),
             numChildNodes = childNodes.length,
             nodeIndex = 0,
             index;
@@ -212,7 +219,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     };
 
     var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
-        var pswpElement = document.querySelectorAll('.pswp')[0],
+        var pswpElement = document.querySelectorAll(".pswp")[0],
             gallery,
             options,
             items;
@@ -285,7 +292,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('{% if include.selector %}{{ include.selector }}{% else %}.my-gallery{% endif %}');
 </script>
 
 <style>

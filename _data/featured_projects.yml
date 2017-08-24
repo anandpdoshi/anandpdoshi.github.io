@@ -1,13 +1,19 @@
-- title: 'An inquiry in affinity based fundraising at Student Life'
-  href: '/portfolio/contextual-inquiry-student-life.html'
-  src: '/assets/others/contextual-inquiry/contextual-inquiry-student-life.png'
-  alt: 'Student Life at the University of Michigan'
-  tag: 'UX Design'
+- title: 'Cocoon: Integrated Product Development'
+  href: '/portfolio/integrated-product-development.html'
+  src: '/assets/others/cocoon/cocoon-posters-thumbnail.jpg'
+  alt: 'Cocoon Posters'
+  tag: 'Product Design'
 
 - title: 'Learning to Sketch: Interaction Design (WIP)'
   href: '/portfolio/learning-to-sketch.html'
   src: '/assets/others/learning-to-sketch/SketchPad Splash Screen thumbnail.png'
   alt: 'Process: Sketching Phase 2'
+  tag: 'UX Design'
+
+- title: 'An inquiry in affinity based fundraising at Student Life'
+  href: '/portfolio/contextual-inquiry-student-life.html'
+  src: '/assets/others/contextual-inquiry/contextual-inquiry-student-life.png'
+  alt: 'Student Life at the University of Michigan'
   tag: 'UX Design'
 
 - title: 'Relationships between DocTypes in ERPNext'
@@ -27,6 +33,12 @@
   src: '/assets/others/toughspirit-blog-files/portfolio/umsi/SI520/IHAA-logo-design/IHAA.png'
   alt: 'IHAA Logo'
   tag: 'Visual Design'
+
+- title: 'Color Tone: Touch Interaction'
+  href: '/portfolio/color-tone-touch-interaction.html'
+  src: '/assets/others/toughspirit-blog-files/portfolio/umsi/SI515/color-tone.png'
+  alt: 'Color Tone'
+  tag: 'Interaction Design'
 
 - title: 'Virtual Pong'
   href: '/portfolio/inertial-tracking.html'

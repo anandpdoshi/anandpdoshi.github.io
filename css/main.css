@@ -53,6 +53,10 @@ nav a {
     width: 200px;
 }
 
+.new-alt-logo {
+    max-width: 200px;
+}
+
 .nav-container {
     background: #f8f8f8;
 	padding-top: 3rem;

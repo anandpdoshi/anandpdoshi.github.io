@@ -47,6 +47,14 @@
 		float: left;
         width: 75%;
     }
+
+    nav.label {
+        margin-top: -0.3rem;
+    }
+
+    nav.label li:last-child {
+        margin-right: 0;
+    }
 }
 
 .heading-row .column-left {
