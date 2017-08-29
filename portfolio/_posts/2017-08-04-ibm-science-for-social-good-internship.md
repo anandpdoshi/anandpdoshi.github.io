@@ -72,8 +72,11 @@ Inspired from a real story, the interactive website takes the user through event
 <label>Video</label>
 
 <div class='row'>
-    <video src="https://www.dropbox.com/s/do22x1r5b09sb5k/Bread%20and%20Life%20Project%20-%20Anand%20Doshi%20-%20Hrishikesh%20Rao.mp4?dl=1" controls
-    style='width: 100%;'></video>
+    <video style='width: 100%' poster='/assets/others/ibm/video-poster.jpg'>
+        <source src="https://www.dropbox.com/s/do22x1r5b09sb5k/Bread%20and%20Life%20Project%20-%20Anand%20Doshi%20-%20Hrishikesh%20Rao.mp4?dl=1"></source>
+        <!-- Fallback for browsers that don't support the <video> element -->
+        <a href="https://www.dropbox.com/s/do22x1r5b09sb5k/Bread%20and%20Life%20Project%20-%20Anand%20Doshi%20-%20Hrishikesh%20Rao.mp4?dl=1" download>Download</a>
+    </video>
 </div>
 
 
@@ -94,8 +97,32 @@ Inspired from a real story, the interactive website takes the user through event
 
 {% include photoswipe.html selector=".content-container" %}
 
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.13/plyr.css">
+
 <style>
 figure {
     margin: 1rem 0;
 }
+
+.plyr {
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.plyr button {
+    height: auto;
+    margin-bottom: 0;
+}
 </style>
+
+<script type="text/javascript" src="https://cdn.plyr.io/2.0.13/plyr.js"></script>
+<script type="text/javascript">
+    (function() {
+      // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
+      // e.g. just plyr.setup(); and leave it at that if you have no need for events
+      var instances = plyr.setup({
+        // Output to console
+        debug: true
+      });
+    })();
+</script>
