@@ -1,9 +1,9 @@
 ---
 layout: portfolio
 title: "Cocoon: Integrated Product Development"
-excerpt: ""
+excerpt: "In 12 weeks, we designed, developed and marketed a smart wearable device"
 category: portfolio
-src: /assets/others/contextual-inquiry/contextual-inquiry-student-life.png
+src: /assets/others/cocoon/cocoon-posters-thumbnail.jpg
 ---
 
 
@@ -14,7 +14,8 @@ src: /assets/others/contextual-inquiry/contextual-inquiry-student-life.png
 
 In 12 weeks, we designed, developed and marketed a smart wearable device as part of Integrated Product Development, a multi-disciplinary course that packs **a startup experience in a semester.**
 
-<div class='row'>
+
+<div class='row' onclick='window.open("http://apd.is/cocoon-interactive")' style='cursor: pointer;'>
     <video src="/assets/others/cocoon/interactive-demo.mp4" autoplay loop
     style='width: 100%;'></video>
 </div>
@@ -39,6 +40,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
    </a>
    <figcaption>Integrated Product Development: Process</figcaption>
 </figure>
+<br>
 
 <div class="bar"></div>
 <label>Concepts</label>
@@ -92,7 +94,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
         </figure>        
     </div>
 </div>
-
+<br>
 
 <div class="bar"></div>
 <label>Personas</label>
@@ -130,6 +132,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
         </figure>
     </div>
 </div>
+<br>
 
 <div class="bar"></div>
 <label>Product Brief</label>
@@ -139,6 +142,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
        <img src="/assets/others/cocoon/product-brief-thumbnail.jpg" itemprop="thumbnail" alt="Product Brief" />
    </a>
 </figure>
+<br>
 
 <div class="bar"></div>
 <label>Prototypes</label>
@@ -187,7 +191,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
    </a>
    <figcaption>Model</figcaption>
 </figure>
-
+<br>
 
 <div class="bar"></div>
 <label>Website &amp; Online Trade Show</label>
@@ -195,6 +199,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 <a href="http://ipd.barclayconsulting.com/teams/2017/kiwi/" class="no-decoration" target="_blank">
    <img src="/assets/others/cocoon/website.png" itemprop="thumbnail" alt="Website" />
 </a>
+<br>
 
 <div class="bar"></div>
 <label>Final Product &amp; Physical Trade Show</label>
@@ -227,6 +232,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
         </figure>
     </div>
 </div>
+<br>
 
 <div class="bar"></div>
 <label>Team Kiwi</label>
@@ -241,11 +247,10 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
    </figcaption>
 </figure>
 
+{% include photoswipe.html selector=".content-container" %}
 
 <style>
 figure {
     margin: 1rem 0;
 }
 </style>
-
-{% include photoswipe.html selector=".content-container" %}

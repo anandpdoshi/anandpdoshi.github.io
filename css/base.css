@@ -215,6 +215,21 @@ label, .label {
 	color: #000;
 }
 
+.nav-container label,
+.nav-container .label {
+	font-weight: 200;
+}
+
+.nav-container label,
+.nav-container .label {
+	font-weight: 200;
+}
+
+.nav-container label a:hover,
+.nav-container .label a:hover {
+	border-bottom: 0.5px solid;
+}
+
 .bar {
     height: 0.4rem;
     width: 4rem;
