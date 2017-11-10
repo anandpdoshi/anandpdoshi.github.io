@@ -1,0 +1,13 @@
+/* bar component */
+.bar {
+    height: 0.3rem;
+    width: 3rem;
+    border-radius: 6rem;
+    background-color: #000;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.bar.grey {
+    background-color: #BBBDBF;
+}

@@ -1,0 +1,159 @@
+.post-list-heading {
+	margin-bottom: 0;
+	width: auto;
+	font-size: 1rem;
+	display: inline;
+	text-decoration: none;
+}
+
+.post-date {
+	display: block;
+	margin-top: 0.425rem;
+}
+
+.portfolio .post-heading {
+	display: inline-block;
+}
+
+article.portfolio {
+	margin-top: -0.5rem;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    margin-left: -1.5rem;
+/*    margin-top: -0.2rem;*/
+}
+
+nav ul > li {
+    display: inline-block;
+    margin: 0.5rem 1.5rem;
+/*    width: 10rem;*/
+}
+
+nav a {
+    border-bottom: none;
+}
+
+.tagline {
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.alt-logo {
+/*    font-size: 1em;*/
+    margin-bottom: 1rem;
+    width: 200px;
+}
+
+.new-alt-logo {
+    max-width: 200px;
+}
+
+.nav-container {
+    background: #f8f8f8;
+	padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.nav-container::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    background: #f8f8f8;
+    z-index: -1;
+}
+
+@media (min-width: 76.8rem) {
+    .logo {
+        width: 190px;
+    }
+
+    .tagline {
+        margin: 0;
+    }
+
+    nav ul > li {
+        width: auto;
+    }
+
+    .nav-container {
+/*        background: transparent;*/
+        padding-bottom: 0;
+		padding-top: 2rem;
+    }
+
+    .nav-container::before {
+/*        background: transparent;*/
+    }
+
+}
+
+/* post & portfolio */
+.post-link .img-container {
+    border: 1px solid #eee;
+    border-radius: 0.3rem;
+    padding: 1em;
+    display: inline-block;
+}
+
+.post-link img {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    border-radius: 0.3rem;
+    margin-bottom: -0.5rem;
+}
+
+.post-link .column-right {
+	padding-bottom: 6rem;
+}
+
+@media (min-width: 76.8rem) {
+    .post-link .column-right {
+        padding-top: 5rem;
+		padding-bottom: 3rem;
+    }
+
+    .post-link:hover .row {
+        background: #f8f8f8;
+        border-radius: 0.3rem;
+    }
+
+    .post-link:hover .img-container,
+    .post-link:active .img-container,
+    .post-link:focus .img-container {
+        background: #fff;
+    }
+}
+
+.timeline > li {
+	position: relative;
+	margin: 4rem 0;
+	list-style-type: disc;
+}
+
+.timeline strong:first-child {
+	font-weight: 500;
+}
+
+.content-container {
+    position: relative;
+}
+
+.hero-full-width {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
