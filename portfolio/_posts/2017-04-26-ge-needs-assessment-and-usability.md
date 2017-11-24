@@ -8,7 +8,7 @@ published: true
 ---
 
 
-<h3 class="lead" style="margin-top: -2.1rem;">
+<h3 class="lead">
     <strong>Needs assessment and usability evaluations</strong> for GE's web presence from the perspective of millennials
 </h3>
 
@@ -48,4 +48,3 @@ figure {
     margin: 1rem 0;
 }
 </style>
-

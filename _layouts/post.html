@@ -4,19 +4,24 @@ layout: base
 <!-- <small class="breadcrumb text-muted"><a href="/portfolio" style="border-bottom: none;">&lt; Portfolio</a></small> -->
 
 <div class="row">
-    <div class="column column-left">
-        <div class="bar"></div>
-        <label>{{ page.date | date_to_long_string }}</label>
+    <div class="col">
+        <!-- <div class="bar grey"></div> -->
+        <label class='small text-muted'>{{ page.date | date_to_long_string }}</label>
 		{% if page.xpost %}
 		from {{ page.xpost }}
 		{% endif %}
-    </div>
-    <div class="column column-right">
         <article class="portfolio">
         	<p>
         	{{ content }}
         	</p>
         </article>
     </div>
-    <div class="clearfix"></div>
 </div>
+
+{% include postnav.html %}
+
+<style media="screen">
+    article {
+        max-width: 767px;
+    }
+</style>

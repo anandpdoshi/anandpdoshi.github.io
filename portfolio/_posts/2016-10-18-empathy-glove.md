@@ -7,8 +7,8 @@ src: /assets/others/toughspirit-blog-files/portfolio/umsi/empathy-glove/empathy-
 ---
 
 <!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 73.8%;">
-  <iframe class="embed-responsive-item" 
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item"
       src="//www.slideshare.net/slideshow/embed_code/key/allxkpJEieyCEO"
       frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

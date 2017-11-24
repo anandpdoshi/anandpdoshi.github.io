@@ -2,13 +2,11 @@
 layout: base
 title: Photography
 ---
-
 <div class="row">
-    <div class="column column-left">
-        <div class="bar"></div>
-        <label>Featured Photos</label>
-    </div>
-    <div class="column column-right">
+    <div class="col">
+        <!-- <div class="bar"></div> -->
+        <!-- <h4>Selected Photos</h4> -->
+
         <div class="my-gallery masonry" itemscope itemtype="http://schema.org/ImageGallery">
             {% for photo in site.data.photography %}
 
@@ -34,4 +32,3 @@ title: Photography
 </div>
 
 {% include photoswipe.html %}
-

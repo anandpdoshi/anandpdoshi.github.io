@@ -6,16 +6,14 @@ category: portfolio
 src: /assets/others/cocoon/cocoon-posters-thumbnail.jpg
 ---
 
-
-<h3 class="lead" style="margin-top: -2.1rem;">
+<h3 class="lead">
     <strong>Cocoon is a smart sleep mask that helps you escape life’s chaos and wake up energized
     </strong>
 </h3>
 
 In 12 weeks, we designed, developed and marketed a smart wearable device as part of Integrated Product Development, a multi-disciplinary course that packs **a startup experience in a semester.**
 
-
-<div class='row' onclick='window.open("http://apd.is/cocoon-interactive")' style='cursor: pointer;'>
+<div class='pt-5 pb-5' onclick='window.open("http://apd.is/cocoon-interactive")' style='cursor: pointer;'>
     <video src="/assets/others/cocoon/interactive-demo.mp4" autoplay loop
     style='width: 100%;'></video>
 </div>
@@ -31,7 +29,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
     My Contributions: Research, Analysis, Brainstorming, Design, Prototyping, Product Development, Mobile App, Website Development, Video, Interactive Demo
 </p>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Process</label>
 
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
@@ -42,7 +40,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 </figure>
 <br>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Concepts</label>
 
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
@@ -62,7 +60,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
        <img src="/assets/others/cocoon/concepts/thumbnails/fit-mitt.jpg" itemprop="thumbnail" alt="Fit Glove" />
    </a>
 </figure>        
-<div class='row'>
+<div>
     <div style='display: inline-block; width: 49%'>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
            <a href="/assets/others/cocoon/concepts/cocoon-hat.jpg" itemprop="contentUrl" data-size="3000x1687" class="no-decoration" target="_blank">
@@ -78,7 +76,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
         </figure>        
     </div>
 </div>
-<div class='row'>
+<div>
     <div style='display: inline-block; width: 49%'>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
            <a href="/assets/others/cocoon/concepts/sleep-phones.jpg" itemprop="contentUrl" data-size="3000x1687" class="no-decoration" target="_blank">
@@ -96,10 +94,10 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 </div>
 <br>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Personas</label>
 
-<div class='row'>
+<div>
     <div style='display: inline-block; width: 49%'>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
            <a href="/assets/others/cocoon/personas/1-tired-traveller.jpg" itemprop="contentUrl" data-size="3000x1687" class="no-decoration" target="_blank">
@@ -116,7 +114,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
     </div>
 </div>
 
-<div class='row'>
+<div>
     <div style='display: inline-block; width: 49%'>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
            <a href="/assets/others/cocoon/personas/3-plagued-professional.jpg" itemprop="contentUrl" data-size="3000x1687" class="no-decoration" target="_blank">
@@ -134,7 +132,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 </div>
 <br>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Product Brief</label>
 
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
@@ -144,10 +142,10 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 </figure>
 <br>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Prototypes</label>
 
-<div class='row'>
+<div>
     <div style='display: inline-block; width: 49%'>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
            <a href="/assets/others/cocoon/prototypes/prototype-1.jpg" itemprop="contentUrl" data-size="3000x1687" class="no-decoration" target="_blank">
@@ -166,7 +164,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
     </div>
 </div>
 
-<div class='row'>
+<div>
     <div style='display: inline-block; width: 49%'>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
            <a href="/assets/others/cocoon/prototypes/electronic-prototype.jpg" itemprop="contentUrl" data-size="3000x1687" class="no-decoration" target="_blank">
@@ -193,7 +191,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 </figure>
 <br>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Website &amp; Online Trade Show</label>
 
 <a href="http://ipd.barclayconsulting.com/teams/2017/kiwi/" class="no-decoration" target="_blank">
@@ -201,7 +199,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 </a>
 <br>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Final Product &amp; Physical Trade Show</label>
 
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
@@ -216,7 +214,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
    </a>
 </figure>
 
-<div class='row'>
+<div>
     <div style='display: inline-block; width: 42.5%'>
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
            <a href="/assets/others/cocoon/trade-show/trade-show-2.jpg" itemprop="contentUrl" data-size="3000x2735" class="no-decoration" target="_blank">
@@ -234,7 +232,7 @@ In 12 weeks, we designed, developed and marketed a smart wearable device as part
 </div>
 <br>
 
-<div class="bar"></div>
+<div class="bar grey"></div>
 <label>Team Kiwi</label>
 
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">

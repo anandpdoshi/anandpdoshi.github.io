@@ -7,7 +7,7 @@ src: /assets/others/ibm/website-thumbnail.png
 ---
 
 
-<h3 class="lead" style="margin-top: -2.1rem;">
+<h3 class="lead">
     <strong>Designing and developing an interactive storytelling website about emergency food best practices that educates, engages and sticks
     </strong>
 </h3>
@@ -23,7 +23,7 @@ Inspired from a real story, the interactive website takes the user through event
 
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
    <a href="/assets/others/ibm/website.png" itemprop="contentUrl" data-size="1400x11432" class="no-decoration" target="_blank">
-       <img src="/assets/others/ibm/website-thumbnail.png" itemprop="thumbnail" alt="Website Mockup" />
+       <img src="/assets/others/ibm/website-thumbnail.png" itemprop="thumbnail" alt="Website Mockup" class="border"/>
    </a>
    <figcaption>Website Mockup WIP — click to enlarge</figcaption>
 </figure>
@@ -52,7 +52,6 @@ Inspired from a real story, the interactive website takes the user through event
    <a href="/assets/others/ibm/process.png" itemprop="contentUrl" data-size="1700x500" class="no-decoration" target="_blank">
        <img src="/assets/others/ibm/process.png" itemprop="thumbnail" alt="Process" />
    </a>
-   <figcaption>Poster Presentation</figcaption>
 </figure>
 <br>
 
@@ -63,7 +62,6 @@ Inspired from a real story, the interactive website takes the user through event
    <a href="/assets/others/ibm/poster.png" itemprop="contentUrl" data-size="3456x2592" class="no-decoration" target="_blank">
        <img src="/assets/others/ibm/poster-thumbnail.png" itemprop="thumbnail" alt="Poster Presentation" />
    </a>
-   <figcaption>Poster Presentation</figcaption>
 </figure>
 
 <br>
@@ -71,7 +69,7 @@ Inspired from a real story, the interactive website takes the user through event
 <div class="bar"></div>
 <label>Video</label>
 
-<div class='row'>
+<div class='js-player'>
     <video style='width: 100%' poster='/assets/others/ibm/video-poster.jpg'>
         <source src="https://www.dropbox.com/s/do22x1r5b09sb5k/Bread%20and%20Life%20Project%20-%20Anand%20Doshi%20-%20Hrishikesh%20Rao.mp4?dl=1"></source>
         <!-- Fallback for browsers that don't support the <video> element -->
@@ -120,7 +118,7 @@ figure {
     (function() {
       // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
       // e.g. just plyr.setup(); and leave it at that if you have no need for events
-      var instances = plyr.setup({
+      var instances = plyr.setup('.js-player', {
         // Output to console
         debug: true
       });

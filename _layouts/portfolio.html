@@ -2,41 +2,90 @@
 layout: base
 ---
 <div class="row">
-    <div class="column column-left">
-        <div class="bar"></div>
-        <label>{{ page.date | date: "%B %Y" }}</label>
-        {% if page.sidebar %}
+    <div class="col">
+        <!-- <div class="bar"></div> -->
+        <span class="text-muted small">{{ page.date | date: "%B %Y" }}</span>
+        <!-- {% if page.sidebar %}
         <br>
         <p class="text-muted">
             {{ page.sidebar | strip_html }}
         </p>
-        {% endif %}
-    </div>
-    <div class="column column-right">
+        {% endif %} -->
+
         <article class="portfolio">
-        	<p>
         	{{ content }}
-        	</p>
         </article>
 
-      {% if page.previous.url and page.previous.categories contains "portfolio" %}
-        <div class="page-navigation">
-
-            <a class="prev" href="{{page.previous.url}}">Next, {{page.previous.title}}</a> →
-        </div>
-      {% endif %}
+        <script type="text/javascript">
+            console.log("{{ page.previous.url }}");
+            console.log("{{ page.next.url }}");
+            console.log("");
+        </script>
     </div>
-    <div class="clearfix"></div>
 </div>
 
+{% include postnav.html %}
+
 <style>
-.page-navigation {
-    text-align: right;
-    margin-top: 6rem;
-    margin-bottom: 3rem;
+article {
+    margin-top: 2rem;
+    position: relative;
+    max-width: 767px;
 }
 
+
+article .lead {
+    font-size: 2.5rem;
+    max-width: 767px;
+    margin-bottom: 2rem;
+    color: rgb(218, 109, 127);
+    line-height: 1.5;
+}
+
+article .lead strong {
+    font-weight: inherit;
+    font-weight: 100;
+}
+
+article figure {
+    margin: 2rem 0;
+}
+
+article figure figcaption {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/*article p {
+    max-width: 767px;
+}*/
+
+/*article figure {
+    width: 50%;
+    display: block;
+    position: relative;
+    left: 30%;
+}*/
+
+/*article figure figcaption {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+    left: calc(100% + 1rem);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 1rem;
+    width: 50%;
+}*/
+
+article label {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+
 </style>
-
-
-

@@ -17,8 +17,8 @@ Sound Pong is a simple game in which a player uses a ping pong paddle to bounce 
 ---
 
 <!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 73.8%;">
-  <iframe class="embed-responsive-item" 
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item"
       src="https://player.vimeo.com/video/184966169?badge=0&byline=0&portrait=0&title=0"
       frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

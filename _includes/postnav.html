@@ -1,0 +1,55 @@
+<!-- based on https://github.com/jekyll/jekyll/issues/260 -->
+{% if page.categories %}
+    {% assign category = page.categories[0] %}
+    {% assign posts = site.categories[category] %}
+    {% for post in posts %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+    {% endfor %}
+    {% for post in posts %}
+        {% if post_index0 == forloop.index %}
+            {% assign next_post = post %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+            {% assign prev_post = post %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% if (prev_post or next_post) %}
+<div class="page-navigation">
+    {% if (prev_post.url) %}
+    <a class="prev strong" href="{{prev_post.url}}">Next, {{prev_post.title}} →</a>
+    {% endif %}
+    {% if next_post.url%}
+    <br>
+    <a class="next small" href="{{next_post.url}}">← Back, {{next_post.title}}</a>
+    {% endif %}
+</div>
+{% endif %}
+
+<style media="screen">
+    .page-navigation {
+        text-align: right;
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    .page-navigation .next {
+        font-weight: 100;
+        padding-right: 2rem;
+        /*transform: skew(10deg);*/
+        display: inline-block;
+        font-size: 80%;
+        margin-top: 2rem;
+    }
+
+    @media (hover: hover) {
+        /* based on https://css-tricks.com/touch-devices-not-judged-size/ */
+        .page-navigation .next {
+            margin-top: 0rem;
+        }
+    }
+</style>

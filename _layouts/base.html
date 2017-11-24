@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/fonts/metropolis/stylesheet.css">
     <!-- <link rel="stylesheet" href="/css/base.css"> -->
     <!-- <link rel="stylesheet" href="/css/layout.css"> -->
     <link rel="stylesheet" href="/css/main.css">
@@ -50,7 +51,7 @@
             </div>
             <div class="col-xs-auto">
                 <nav class="nav justify-content-end">
-                    <a class="nav-link" href="/portfolio">Design</a>
+                    <a class="nav-link" href="/portfolio">Portfolio</a>
                     <!-- <a class="nav-link" href="/code">Code</a> -->
                     <a class="nav-link" href="/photography">Photography</a>
                     <a class="nav-link" href="/blog">Blog</a>
@@ -76,11 +77,9 @@
     {% if heading %}
 	<div class="container title-container" data-page="{{ page.name }}">
         <div class="row heading-row">
-            <div class="column column-left"></div>
-            <div class="column column-right">
-                <h5>{{ heading }}</h5>
+            <div class="col">
+                <h2>{{ heading }}</h2>
             </div>
-            <div class="clearfix"></div>
         </div>
 	</div>
     {% endif %}
@@ -90,14 +89,21 @@
 	</div>
 
     <div class="container footer-container">
-        <div class="row">
-            <div class="col">
-                <div class="bar grey"></div>
+        <div class="bar grey"></div>
+        <div class="row justify-content-between">
+            <div class="col-auto">
                 <div class="text-muted">
                     <span>©<span class='copyright-year'><script type="text/javascript">document.write(new Date().getFullYear());</script>
                     </span> Anand Doshi</span><br>
                     <a href="https://twitter.com/anandpdoshi" target="_blank" class="no-decoration">@anandpdoshi</a><br>
                 </div>
+            </div>
+            <div class="col-xs-auto">
+                <nav class="nav justify-content-end">
+                    <a class="nav-link footer-link" href="https://github.com/anandpdoshi" target="_blank">Github</a>
+                    <a class="nav-link footer-link" href="https://linkedin.com/in/anandpdoshi" target="_blank">LinkedIn</a>
+                    <a class="nav-link footer-link" href="https://twitter.com/anandpdoshi" target="_blank">Twitter</a>
+                </nav>
             </div>
         </div>
     </div>

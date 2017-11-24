@@ -1,15 +1,30 @@
 @import url('/css/nav.css');
 @import url('/css/components.css');
 @import url('/css/footer.css');
+@import url('/css/portfolio-grid.css');
 
 body {
     overflow-x: hidden;
-    /*font-family: 'Rubik', sans-serif;
-    font-family: 'Gibson', sans-serif;*/
+    /*font-family: 'Rubik', sans-serif;*/
+    /*font-family: 'Gibson', sans-serif;*/
     font-family: 'Europa', sans-serif;
+    /*font-family: 'Metropolis', sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #333;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.6;
+}
+
+strong, .strong {
+    font-family: inherit;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+small, .small {
+    font-weight: inherit;
 }
 
 .text-muted {
@@ -19,7 +34,7 @@ body {
 /* link */
 a {
     color: inherit;
-    transition: color 0.25s ease;
+    transition: color 0.5s ease-in-out;
 }
 
 a:hover, a:active, a:focus {
@@ -42,4 +57,40 @@ img {
 	-webkit-transition: opacity 0.5s ease-in-out;
     -moz-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
+}
+
+h2, .h2 {
+    font-weight: bold;
+    font-weight: 600;
+    /*letter-spacing: 0.005rem;*/
+}
+
+h4, .h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+h5, .h5 {
+    /*font-family: 'Metropolis Semi';
+    font-weight: 600;*/
+    /*font-weight: 700;*/
+    font-weight: 600;
+    /*font-size: 1.4rem;*/
+}
+
+.title-container {
+    padding-top: 2rem;
+}
+
+.content-container {
+    padding-bottom: 4rem;
+}
+
+/* link color in articles */
+article a {
+    color: rgb(218, 109, 127);
 }
