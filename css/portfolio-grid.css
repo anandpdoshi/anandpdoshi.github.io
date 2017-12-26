@@ -1,4 +1,4 @@
-.project-row {
+/* .project-row {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
 }
@@ -6,7 +6,7 @@
 .project-col {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-}
+} */
 
 .project-content {
     display: inline-block;
@@ -16,7 +16,7 @@
     margin-bottom: 2rem;
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) {
     .project-content:hover img {
         -webkit-filter: grayscale(0%);
         -webkit-transition: 0.25s ease-in-out;
@@ -36,7 +36,7 @@
         -o-transition: 0.25s ease-in-ou;
         filter: grayscale(40%);
     }
-}
+} */
 
 .project-content h5 {
     line-height: 1.5;

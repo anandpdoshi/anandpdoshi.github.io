@@ -1,40 +1,22 @@
 ---
 layout: base
 title: Anand Doshi
-heading: ''
+heading: 'Projects'
 ---
-
-<!-- background: "#EAF9FF" -->
-
-<div class="row">
-    <div class="col-md-8">
-        <img src="/assets/images/anand-doshi-design-jam.jpg" class="hero-image">
-    </div>
-    <div class="col-md-4">
-        <div class="home-about-me appear-invisible">
-            <p>
-                I am a <br>
-                <strong>Designer and Developer,</strong> <br>
-                with a broad skill set
-                for creating digital products.
-            </p>
-        </div>
-    </div>
-</div>
-<br>
 
 <div class="row project-row">
     {% for project in site.data.featured_projects %}
-    <div class="col-12
-        {% if project.cols %} {{ project.cols }} {% else %} col-sm-6 col-lg-4 {% endif %} project-col">
-        <a href="{{ project.href }}" class="no-decoration project-content">
-            <div class="bar grey"></div>
+    {% if forloop.index == 7 %}
+    <div class="col-12 more-wrapper"><a href="" class="btn btn-outline-dark btn-block btn-more">More Projects</a></div>
+    {% endif %}
+    <div class="col-xl-6 project-col {% if forloop.index >= 7 %}d-none{% endif %}">
+        <a href="{{ project.url }}" class="no-decoration project-content">
             <div class="item">
                 <h5>
                     {{ project.title }}
-                    {% if project.tag %}
+                    <!-- {% if project.tag %}
                     <span class="small tag">{{ project.tag }}</span>
-                    {% endif %}
+                    {% endif %} -->
                 </h5>
                 <img src="{{ project.src }}" alt="{{ project.alt }}"
                     {% if project.img_style %}style="{{ project.img_style }}"{% endif %}>
@@ -45,21 +27,14 @@ heading: ''
 
 </div>
 
-<style>
-    .home-about-me {
-        font-size: 1.6rem;
-    }
+<script type="text/javascript">
+    document.querySelector('.project-row .btn-more').onclick = function(event) {
+        event.preventDefault();
 
-</style>
+        document.querySelectorAll('.project-row .d-none').forEach(function(el) {
+            el.classList.remove('d-none');
+        });
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        setTimeout(function() {
-            var element = document.querySelectorAll('.appear-invisible');
-            if (element.length) {
-                element[0].classList.remove('appear-invisible');
-                element[0].classList.add('appear');
-            }
-        }, 300);
-    });
+        document.querySelector('.project-row .more-wrapper').classList.add('d-none');
+    };
 </script>

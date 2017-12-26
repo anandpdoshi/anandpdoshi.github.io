@@ -4,7 +4,7 @@ layout: base
 <div class="row">
     <div class="col">
         <!-- <div class="bar"></div> -->
-        <span class="text-muted small">{{ page.date | date: "%B %Y" }}</span>
+        <!-- <span class="text-muted small">{{ page.date | date: "%B %Y" }}</span> -->
         <!-- {% if page.sidebar %}
         <br>
         <p class="text-muted">
@@ -25,67 +25,3 @@ layout: base
 </div>
 
 {% include postnav.html %}
-
-<style>
-article {
-    margin-top: 2rem;
-    position: relative;
-    max-width: 767px;
-}
-
-
-article .lead {
-    font-size: 2.5rem;
-    max-width: 767px;
-    margin-bottom: 2rem;
-    color: rgb(218, 109, 127);
-    line-height: 1.5;
-}
-
-article .lead strong {
-    font-weight: inherit;
-    font-weight: 100;
-}
-
-article figure {
-    margin: 2rem 0;
-}
-
-article figure figcaption {
-    color: rgba(0, 0, 0, 0.4);
-    font-size: 80%;
-    font-style: italic;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-/*article p {
-    max-width: 767px;
-}*/
-
-/*article figure {
-    width: 50%;
-    display: block;
-    position: relative;
-    left: 30%;
-}*/
-
-/*article figure figcaption {
-    color: rgba(0, 0, 0, 0.4);
-    font-size: 80%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%)
-    left: calc(100% + 1rem);
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    padding-left: 1rem;
-    width: 50%;
-}*/
-
-article label {
-    font-weight: 600;
-    font-size: 1.25rem;
-}
-
-
-</style>

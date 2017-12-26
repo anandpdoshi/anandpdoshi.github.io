@@ -1,0 +1,123 @@
+header {
+    nav a {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+    }
+
+    svg path {
+        stroke-width: 7.5px !important;
+        transition: stroke 0.5s ease-in-out;
+    }
+
+    .logo-text {
+        font-size: 1.25rem;
+    }
+
+    .sub-text {
+        font-size: 1rem;
+        margin-top: 0.1rem;
+        display: inline-block;
+        color: #ccc;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    header {
+        .logo-text {
+            display: none;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        padding-bottom: 7px;
+
+        & > a {
+            display: flex;
+
+            .logo-image {
+                width: 3rem;
+            }
+
+            .logo-text {
+                padding-left: 1rem;
+                padding-top: 0.6rem;
+
+                .sub-text {
+                    display: none;
+                }
+            }
+        }
+
+
+
+        nav {
+            margin-top: 0.4rem;
+        }
+
+        .nav-link:last-child {
+            padding-right: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 17rem;
+        padding: 2.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .logo-image {
+            width: 4rem;
+        }
+
+        .logo-text {
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            flex-direction: column;
+
+            .nav-link {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+    }
+
+    body {
+        margin-left: 17rem;
+        padding: 0 2.5rem;
+    }
+}
+
+.bg-black {
+    background: black;
+    color: white;
+
+    a {
+        color: #ddd;
+    }
+
+    a:hover, a:active, a:focus {
+    	color: white;
+    	text-decoration: none;
+    }
+
+    svg path {
+        stroke: #fff !important;
+    }
+}

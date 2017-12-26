@@ -3,13 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/fonts/metropolis/stylesheet.css">
-    <!-- <link rel="stylesheet" href="/css/base.css"> -->
-    <!-- <link rel="stylesheet" href="/css/layout.css"> -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/main.css">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}"
 	      href="http://apd.is/feed.xml">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,600" rel="stylesheet">
+
 	<title>{{ page.title }}</title>
 	{% if page.date %}
 	<meta http-equiv="date" content="{{ page.date | date_to_rfc822 }}" />
@@ -39,32 +39,43 @@
     <meta name="msapplication-square150x150logo" content="/assets/images/favicons/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="/assets/images/favicons/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="/assets/images/favicons/mstile-310x310.png" />
-
 </head>
-<body {% if page.background %} style="background: {{ page.background }}" {% endif %}>
-    <div class="container nav-container">
-        <div class="row justify-content-between">
-            <div class="col-auto">
-                <a href="/">
-                    <img src="/assets/images/new-inline-logo.svg" class="logo">
-                </a>
+<body>
+    <header class="bg-black">
+        <a href="/" class="logo">
+            <div class="logo-image">
+                {% include apd-logo.svg %}
             </div>
-            <div class="col-xs-auto">
-                <nav class="nav justify-content-end">
-                    <a class="nav-link" href="/portfolio">Portfolio</a>
-                    <!-- <a class="nav-link" href="/code">Code</a> -->
-                    <a class="nav-link" href="/photography">Photography</a>
-                    <a class="nav-link" href="/blog">Blog</a>
-                    <a class="nav-link" target="_blank"
-                        href="/assets/others/toughspirit-blog-files/resume.pdf">
-                        Resumé
-                    </a>
-                    <a class="nav-link" href="/about">About</a>
-                    <!-- <a class="nav-item" href="/contact">Contact</a> -->
-                </nav>
+            <div class="logo-text">
+                Anand Doshi
+                <span class='sub-text'>
+                    <br>
+                    UX Designer,
+                    <br>
+                    Full-stack Developer
+                </span>
             </div>
-        </div>
-    </div>
+        </a>
+        <nav class="nav d-none d-lg-flex">
+        {% include postnav_condition.html %}
+
+        {% if prev_post or next_post %}
+            {% if prev_post.url %}
+            <a class="nav-link" href="{{ prev_post.url }}">Next: {{ prev_post.name }} →</a>
+            {% endif %}
+            {% if next_post.url %}
+            <a class="nav-link small" href="{{ next_post.url }}">← Previous: {{ next_post.name }}</a>
+            {% endif %}
+        {% endif %}
+        </nav>
+        <nav role="main" class="nav">
+            <a class="nav-link" target="_blank"
+                href="/assets/others/toughspirit-blog-files/resume.pdf">
+                Resumé
+            </a>
+            <a class="nav-link" href="/about">About</a>
+        </nav>
+    </header>
 
     {% if page.heading or page.heading=='' %}
         {% assign heading = page.heading %}
@@ -74,17 +85,15 @@
         {% assign heading = layout.title %}
     {% endif %}
 
-    {% if heading %}
-	<div class="container title-container" data-page="{{ page.name }}">
+	<div class="container content-container" data-page="{{ page.name }}">
+        {% if heading %}
         <div class="row heading-row">
             <div class="col">
-                <h2>{{ heading }}</h2>
+                <h3>{{ heading }}</h3>
             </div>
         </div>
-	</div>
-    {% endif %}
+        {% endif %}
 
-	<div class="container content-container" data-page="{{ page.name }}">
 		{{ content }}
 	</div>
 
@@ -107,7 +116,6 @@
             </div>
         </div>
     </div>
-
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

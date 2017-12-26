@@ -1,0 +1,131 @@
+@import "bootstrap/bootstrap";
+@import "base";
+@import "nav";
+
+.content-container,
+.footer-container {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.heading-row {
+    h3 {
+        font-weight: bold;
+    }
+}
+
+.project-row {
+    margin-top: 2rem;
+    // margin-bottom: -3rem;
+    margin-left: -15px;
+    margin-right: -3rem;
+    position: relative;
+
+    .project-col {
+        padding-bottom: 3rem;
+        padding-left: 15px;
+        padding-right: 3rem;
+    }
+
+    .tag {
+        @extend .text-muted;
+        display: block;
+        font-weight: 400;
+    }
+
+    h5 {
+        font-weight: 700;
+    }
+
+    .more-wrapper {
+        padding-right: 3rem;
+    }
+}
+
+article {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    position: relative;
+    // line-height: 1.6;
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6,
+    label, .label,
+    figure {
+        font-family: 'Europa', sans-serif;
+    }
+
+    label, .label, h4, h5 {
+        font-weight: bold;
+    }
+
+    section {
+        margin-bottom: 3rem;
+
+        aside {
+            padding-right: 0 !important;
+
+            & > div, & > figure {
+                padding-bottom: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+
+    p > a {
+        border-bottom: 1px solid #000;
+
+        &:hover, &:active, &:focus {
+            border-bottom: 2px solid #000;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        & > p, & > .lead {
+            max-width: 40rem;
+        }
+    }
+
+    .lead {
+        font-size: 2.5rem;
+        margin: 2rem 0;
+        color: rgb(218, 109, 127);
+    }
+
+    figure {
+        // margin: 2rem 0;
+    }
+
+    figure figcaption {
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 80%;
+        font-style: italic;
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    ul > li,
+    ol > li {
+        margin-bottom: 1rem;
+    }
+
+    ul, ol {
+        margin-bottom: 2rem;
+    }
+
+    blockquote {
+        background: #eee;
+        padding: 2rem;
+    }
+
+    // hr {
+    //     margin-top: 2rem;
+    //     margin-bottom: 2rem;
+    // }
+}

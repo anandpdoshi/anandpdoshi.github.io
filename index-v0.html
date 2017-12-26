@@ -1,0 +1,65 @@
+---
+layout: base
+title: Anand Doshi
+heading: ''
+---
+
+<!-- background: "#EAF9FF" -->
+
+<div class="row">
+    <div class="col-md-8">
+        <img src="/assets/images/anand-doshi-design-jam.jpg" class="hero-image">
+    </div>
+    <div class="col-md-4">
+        <div class="home-about-me appear-invisible">
+            <p>
+                I am a <br>
+                <strong>Designer and Developer,</strong> <br>
+                with a broad skill set
+                for creating digital products.
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="row project-row">
+    {% for project in site.data.featured_projects %}
+    <div class="col-12
+        {% if project.cols %} {{ project.cols }} {% else %} col-sm-6 col-lg-4 {% endif %} project-col">
+        <a href="{{ project.href }}" class="no-decoration project-content">
+            <div class="bar grey"></div>
+            <div class="item">
+                <h5>
+                    {{ project.title }}
+                    {% if project.tag %}
+                    <span class="small tag">{{ project.tag }}</span>
+                    {% endif %}
+                </h5>
+                <img src="{{ project.src }}" alt="{{ project.alt }}"
+                    {% if project.img_style %}style="{{ project.img_style }}"{% endif %}>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+
+</div>
+
+<style>
+    .home-about-me {
+        font-size: 1.6rem;
+    }
+
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            var element = document.querySelectorAll('.appear-invisible');
+            if (element.length) {
+                element[0].classList.remove('appear-invisible');
+                element[0].classList.add('appear');
+            }
+        }, 300);
+    });
+</script>
