@@ -1,27 +1,15 @@
 ---
 layout: base
 ---
-<div class="row">
-    <div class="col">
-        <!-- <div class="bar"></div> -->
-        <!-- <span class="text-muted small">{{ page.date | date: "%B %Y" }}</span> -->
-        <!-- {% if page.sidebar %}
-        <br>
-        <p class="text-muted">
-            {{ page.sidebar | strip_html }}
-        </p>
-        {% endif %} -->
+<hr class="mb-4 mt-2">
+<article class="portfolio">
+	{{ content }}
+</article>
 
-        <article class="portfolio">
-        	{{ content }}
-        </article>
-
-        <script type="text/javascript">
-            console.log("{{ page.previous.url }}");
-            console.log("{{ page.next.url }}");
-            console.log("");
-        </script>
-    </div>
-</div>
+<script type="text/javascript">
+    console.log("{{ page.previous.url }}");
+    console.log("{{ page.next.url }}");
+    console.log("");
+</script>
 
 {% include postnav.html %}

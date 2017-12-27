@@ -6532,9 +6532,9 @@ article {
     article > p, article > .lead {
       max-width: 40rem; } }
   article .lead {
-    font-size: 2.5rem;
-    margin: 2rem 0;
-    color: #da6d7f; }
+    font-size: 2rem;
+    font-family: 'Europa', sans-serif;
+    margin: 2rem 0; }
   article figure figcaption {
     color: #868e96;
     font-size: 80%;
