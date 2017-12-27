@@ -4405,6 +4405,9 @@ a.bg-dark:focus, a.bg-dark:hover {
 .embed-responsive-16by9::before {
   padding-top: 56.25%; }
 
+.embed-responsive-9by16::before {
+  padding-top: 177.77778%; }
+
 .embed-responsive-4by3::before {
   padding-top: 75%; }
 
@@ -6414,6 +6417,11 @@ header .sub-text {
     display: none; } }
 @media (max-width: 991px) {
   header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -6430,7 +6438,11 @@ header .sub-text {
     header nav {
       margin-top: 0.4rem; }
     header .nav-link:last-child {
-      padding-right: 0; } }
+      padding-right: 0; }
+
+  body {
+    margin-top: 4.6rem;
+    padding-top: 0.1rem; } }
 @media (min-width: 992px) {
   header {
     position: fixed;
@@ -6494,7 +6506,7 @@ header .sub-text {
 article {
   font-family: 'EB Garamond', sans-serif;
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: 400;
   position: relative; }
   article p {
     margin-bottom: 2rem; }
@@ -6524,7 +6536,7 @@ article {
     margin: 2rem 0;
     color: #da6d7f; }
   article figure figcaption {
-    color: rgba(0, 0, 0, 0.4);
+    color: #868e96;
     font-size: 80%;
     font-style: italic;
     text-align: center;
@@ -6538,5 +6550,12 @@ article {
   article blockquote {
     background: #eee;
     padding: 2rem; }
+
+.img3by2 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 66.66667%;
+  background-size: cover;
+  background-position: center center; }
 
 /*# sourceMappingURL=bootstrap.css.map */
