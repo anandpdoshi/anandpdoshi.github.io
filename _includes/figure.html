@@ -1,0 +1,8 @@
+<figure class="item {% if include.figure_class %}{{ include.figure_class }}{% endif %}">
+    <a href="{{ include.src }}" target="_blank">
+        <img src="{{ include.src }}" {% if img_class %}class="{{ include.img_class }}"{% endif %}>
+    </a>
+    {% if include.caption %}
+        <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>

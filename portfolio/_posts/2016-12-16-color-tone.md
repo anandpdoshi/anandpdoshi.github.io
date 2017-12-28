@@ -4,11 +4,12 @@ title: Color Tone
 excerpt: Interacting with colors by touch to produce sound
 category: portfolio
 src: /assets/others/toughspirit-blog-files/portfolio/umsi/SI515/color-tone.png
+redirect_from: "/portfolio/color-tone-touch-interaction.html"
 ---
 
 <!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item"
       src="https://player.vimeo.com/video/197314369?badge=0&byline=0&portrait=0&title=0"
       frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

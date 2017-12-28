@@ -1,9 +1,10 @@
 ---
 layout: portfolio
-title: "SketchPad: Interaction Design"
+title: "SketchPad: ann app for learning to sketch"
 excerpt: "Designing a tool that teaches you how to sketch"
 category: portfolio
-src: /assets/others/learning-to-sketch/SketchPad Splash Screen thumbnail.png
+src: /assets/projects/sketchpad/sketchpad-thumbnail.jpg
+redirect_from: "/portfolio/learning-to-sketch.html"
 ---
 
 
@@ -19,9 +20,8 @@ src: /assets/others/learning-to-sketch/SketchPad Splash Screen thumbnail.png
 
 <!-- https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen -->
 
-<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item"
-    style="margin-bottom: 15px;">
-   <a href="https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen" itemprop="contentUrl" data-size="1024x768" class="no-decoration" target="_blank">
+<figure style="margin-bottom: 15px;">
+   <a href="https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen" itemprop="contentUrl" data-size="1024x768" target="_blank">
        <img src="/assets/others/learning-to-sketch/SketchPad Splash Screen.png" itemprop="thumbnail" alt="SketchPad Splash Screen" />
    </a>
    <figcaption><a href="https://projects.invisionapp.com/share/HFCT6D3GJ#/screens/229524972_SketchPad_Splash_Screen" target="_blank">Click to see: Digital Prototype on Invision</a></figcaption>
@@ -39,7 +39,7 @@ In this project, I aim to design a tool that helps you to continue learning how 
 <div class="bar"></div>
 <label>The process</label>
 
-<ul class="timeline">
+<ul class="timeline list-unstyled">
    <li>
        <strong>Project Design Problem Statement</strong><br>
        <p>

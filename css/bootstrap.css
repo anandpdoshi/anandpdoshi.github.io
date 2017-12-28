@@ -6385,7 +6385,8 @@ a:hover, a:active, a:focus {
 
 /* image */
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  vertical-align: top; }
 
 /* headings */
 h1, h2, h3, h4, h5, h6,
@@ -6513,7 +6514,7 @@ article {
   article h1, article h2, article h3, article h4, article h5, article h6,
   article .h1, article .h2, article .h3, article .h4, article .h5, article .h6,
   article label, article .label,
-  article figure {
+  article figure, article .pswp {
     font-family: 'Europa', sans-serif; }
   article label, article .label, article h4, article h5 {
     font-weight: bold; }
@@ -6535,13 +6536,17 @@ article {
     font-size: 2rem;
     font-family: 'Europa', sans-serif;
     margin: 2rem 0; }
+  article figure {
+    margin: 0; }
   article figure figcaption {
     color: #868e96;
     font-size: 80%;
     font-style: italic;
     text-align: center;
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 1.5rem; }
+  article figure a {
+    display: inline-block; }
   article ul > li,
   article ol > li {
     margin-bottom: 1rem; }
