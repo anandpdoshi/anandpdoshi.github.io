@@ -21,7 +21,7 @@
 
 - name: 'SketchPad'
   title: 'SketchPad: an app for learning to sketch'
-  url: '/portfolio/learning-to-sketch.html'
+  url: '/portfolio/sketchpad.html'
   src: '/assets/projects/sketchpad/sketchpad-thumbnail.jpg'
   alt: 'SketchPad Mockups'
   tag: 'Design'
@@ -35,7 +35,7 @@
 
 - name: 'Color Tone'
   title: 'Color Tone: create music through pictures'
-  url: '/portfolio/color-tone-touch-interaction.html'
+  url: '/portfolio/color-tone.html'
   src: '/assets/projects/color-tone/color-tone-thumbnail.jpg'
   alt: 'Color Tone Concept'
   tag: 'Interaction Design'
