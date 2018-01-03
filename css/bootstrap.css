@@ -6403,7 +6403,7 @@ header nav a {
   text-transform: uppercase;
   letter-spacing: 0.1rem; }
 header svg path {
-  stroke-width: 7.5px !important;
+  stroke-width: 8px !important;
   transition: stroke 0.5s ease-in-out; }
 header .logo-text {
   font-size: 1.25rem; }
@@ -6425,24 +6425,31 @@ header .sub-text {
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-    padding-bottom: 7px; }
+    padding: 6px 15px;
+    padding-bottom: 1px; }
     header > a {
       display: flex; }
       header > a .logo-image {
-        width: 3rem; }
+        width: 2.1rem; }
       header > a .logo-text {
         padding-left: 1rem;
-        padding-top: 0.6rem; }
+        padding-top: 0.3rem;
+        font-size: 1.1rem;
+        color: #eee; }
         header > a .logo-text .sub-text {
           display: none; }
     header nav {
-      margin-top: 0.4rem; }
+      margin-top: -0.1rem; }
+      header nav a {
+        font-size: 0.9rem; }
     header .nav-link:last-child {
       padding-right: 0; }
+    header svg path {
+      stroke-width: 12px !important;
+      transition: stroke 0.5s ease-in-out; }
 
   body {
-    margin-top: 4.6rem;
+    margin-top: 3rem;
     padding-top: 0.1rem; } }
 @media (min-width: 992px) {
   header {

@@ -6,7 +6,7 @@ header {
     }
 
     svg path {
-        stroke-width: 7.5px !important;
+        stroke-width: 8px !important;
         transition: stroke 0.5s ease-in-out;
     }
 
@@ -40,19 +40,21 @@ header {
 
         display: flex;
         justify-content: space-between;
-        padding: 15px;
-        padding-bottom: 7px;
+        padding: 6px 15px;
+        padding-bottom: 1px;
 
         & > a {
             display: flex;
 
             .logo-image {
-                width: 3rem;
+                width: 2.1rem;
             }
 
             .logo-text {
                 padding-left: 1rem;
-                padding-top: 0.6rem;
+                padding-top: 0.3rem;
+                font-size: 1.1rem;
+                color: #eee;
 
                 .sub-text {
                     display: none;
@@ -63,18 +65,29 @@ header {
 
 
         nav {
-            margin-top: 0.4rem;
+            margin-top: -0.1rem;
+
+            a {
+                font-size: 0.9rem;
+            }
         }
 
         .nav-link:last-child {
             padding-right: 0;
         }
+
+        svg path {
+            stroke-width: 12px !important;
+            transition: stroke 0.5s ease-in-out;
+        }
     }
 
     body {
-        margin-top: 4.6rem;
+        margin-top: 3rem;
         padding-top: 0.1rem;
     }
+
+
 }
 
 @include media-breakpoint-up(lg) {

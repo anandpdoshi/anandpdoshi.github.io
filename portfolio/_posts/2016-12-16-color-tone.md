@@ -1,9 +1,8 @@
 ---
 layout: portfolio
-title: Color Tone
-excerpt: Interacting with colors by touch to produce sound
+title: 'Color Tone: create music through pictures'
 category: portfolio
-src: /assets/others/toughspirit-blog-files/portfolio/umsi/SI515/color-tone.png
+src: /assets/projects/color-tone/color-tone-thumbnail.jpg
 redirect_from: "/portfolio/color-tone-touch-interaction.html"
 ---
 
@@ -16,4 +15,4 @@ redirect_from: "/portfolio/color-tone-touch-interaction.html"
 
 ---
 
-This paper explores the use of touch gestures to interact with colors on a screen by producing sound based on hue, saturation and value of a pixel. By touching a pre-defined or custom image, the user could generate sounds based on a fixed mapping of color to note. A speech mode also announces the color at the touch-point, thus making it not only an interesting instrument, but also a tool for the visually impaired. <a href="/assets/others/toughspirit-blog-files/portfolio/umsi/SI515/color-tone.pdf" target="_blank">Read Full Report</a>
+This project explores the use of touch gestures to interact with colors on a screen by producing sound based on hue, saturation and value of a pixel. By touching a pre-defined or custom image, the user could generate sounds based on a fixed mapping of color to note. A speech mode also announces the color at the touch-point. <a href="/assets/others/toughspirit-blog-files/portfolio/umsi/SI515/color-tone.pdf" target="_blank">Read Full Report</a>

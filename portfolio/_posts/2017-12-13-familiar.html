@@ -7,14 +7,13 @@ src: /assets/projects/familiar/familiar-thumbnail.jpg
 ---
 <section>
     <div class="embed-responsive embed-responsive-16by9">
-        <video src="https://www.dropbox.com/s/44kijqdfsuweyp4/Familiar.mp4?dl=1"  poster="https://www.dropbox.com/s/if38t7cqjdrwpxo/familiar-splash.jpeg?dl=1" controls
-        class="embed-responsive-item">
-        </video>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_gH685Ope_o?modestbranding=1&rel=0"
+            frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
 </section>
 
 <section class="row">
-    <main class="col-xl-7">
+    <main class="col-xl-8">
         <p>
             What if you had your own artificial intelligence that learns and grows with you? An assistant that helps you amplify your potential, in learning, work, and personal life.
         </p>
@@ -50,11 +49,20 @@ src: /assets/projects/familiar/familiar-thumbnail.jpg
 
         <p>Although a Familiar could have its own mic, speakers and camera, it is more like an entity that blends in with your other devices. <strong>You can chat with it, talk to it, or even communicate with it through a phone call.</strong> This kind of interaction is inspired from J.A.R.V.I.S., the home computing system of Tony Stark / Iron Man of Marvel Comics. This system also has many parallels with the Young Lady’s Illustrator Primer from The Diamond Age by Neal Stephenson. </p>
 
+        <h4 class="mt-5">
+            Concerns
+        </h4>
         <p>Any new technology also brings its own problems and fears. <strong>One of the biggest concern for such a personal AI is that people will become anti-social, and dependent on the AI.</strong> This effect has already been observed in online social networks platforms. How can we ensure that using Familiar does not lead to this outcome? One way would be to design Familiar with the goal of balancing the social life of their owner. If the Familiar observes that its owner is spending too much time interacting with it, and less time with other humans, it could encourage more social interactions with others. </p>
 
         <p><strong>Another concern that is often raised regarding AIs is that one day they will learn enough to replace their owners.</strong> Currently, AI as a technology can only do very specific tasks. Future development of AIs is in our control. We can design AIs with certain limitations, just like car manufacturers limit the speeds of their cars, with the forethought that speeding causes accidents. <strong>On way to enforce such limitations could be through a separate bot internet that has higher speeds, special protocols for bots, and censorship on automatically accessing certain kinds of information.</strong> This could be regulated through a non-profit organization: Federal Bot Council (FBC). The bots could still access censored information if their own manually accesses that information. Registration will also allow the FBC to have periodic inspections, similar to how we have vehicle registration today. Inspired from Neuromancer by William Gibson, there could be special bots, that are designed to enforce bot laws implemented by the FBC.</p>
     </main>
     <aside class="col-xl-4 offset-xl-1 d-flex flex-column">
+        <figure class="item">
+            <a href="/assets/projects/familiar/familiar-stages.gif" target="_blank">
+                <img src="/assets/projects/familiar/familiar-stages.gif">
+            </a>
+            <figcaption>Familiar Growth Stages</figcaption>
+        </figure>
         <figure class="item">
             <a href="/assets/projects/familiar/3d-printer-housing.jpg" target="_blank">
                 <img src="/assets/projects/familiar/3d-printer-housing.jpg">
@@ -65,22 +73,166 @@ src: /assets/projects/familiar/familiar-thumbnail.jpg
             <div class="embed-responsive embed-responsive-9by16">
                 <video
                     class="embed-responsive-item"
-                    src="https://www.dropbox.com/s/ao5jyiplm2ljx33/3d-model-glow-colors.mp4?dl=1"
-                    poster="https://www.dropbox.com/s/kkjvgnx1ab4wq2y/splash-2.png?dl=1"
-                    muted loop controls>
+                    src="https://dl.dropboxusercontent.com/s/ao5jyiplm2ljx33/3d-model-glow-colors.mp4?dl=1"
+                    poster="https://dl.dropboxusercontent.com/s/kkjvgnx1ab4wq2y/splash-2.png?dl=1"
+                    muted loop controls autoplay playsinline>
                 </video>
             </div>
+            <figcaption>Visual Feedback</figcaption>
         </figure>
         <figure>
             <div class="embed-responsive embed-responsive-16by9">
                 <video class="embed-responsive-item"
-                    src="https://www.dropbox.com/s/f3q8ztboj6go61n/Time-lapse%204x%20-%20flipped.mp4?dl=1"
-                    poster="https://www.dropbox.com/s/y2e5ltfso6hvpv7/timelapse-splash.png?dl=1"
-                    muted loop controls>
+                    src="https://dl.dropboxusercontent.com/s/f3q8ztboj6go61n/Time-lapse%204x%20-%20flipped.mp4?dl=1"
+                    poster="https://dl.dropboxusercontent.com/s/y2e5ltfso6hvpv7/timelapse-splash.png?dl=1"
+                    muted loop controls autoplay playsinline>
                 </video>
             </div>
             <figcaption>Time-lapse of 3D print</figcaption>
         </figure>
-
     </aside>
 </section>
+
+
+<hr class="mb-5">
+
+<section class="row">
+    <main class="col-xl-8">
+        <h4>Iterations</h4>
+
+        <p>
+            Gathering inspiration from the growth of insects, plants, buildings, and 3d printed objects, I started exploring ways to show growth. Initially, I used Rhinoceros 3D software to manually create 2 representations of growth: one that rises, and one that grows around a sphere. Based on peer feedback, I worked further on growth around a sphere, and used Processing to create variations of 3D models that have layers of lattice-like growth. However, after many failed attempts at converting the 3D model into a printable file format, I went back to making a similar model in Rhinoceros with the help of Grasshopper plugin. However, it required several attempts at getting the right balance of complexity, validity of the 3D printable structure, and printing cost. The final iteration was 3D printed on a Form 2 3D printer using a transparent resin, and took over 10 hours to print.
+        </p>
+    </main>
+    <aside class="col-12 d-flex flex-column flex-md-row">
+        <figure class="item">
+            <a href="/assets/projects/familiar/iterations/insect-growth.gif" target="_blank">
+                <img src="/assets/projects/familiar/iterations/insect-growth.gif">
+            </a>
+            <figcaption>Growth of an insect</figcaption>
+        </figure>
+        <figure class="item">
+            <a href="/assets/projects/familiar/iterations/plant-growth.jpeg" target="_blank">
+                <img src="/assets/projects/familiar/iterations/plant-growth.jpeg" class="p-3">
+            </a>
+            <figcaption>Growth of a plant</figcaption>
+        </figure>
+        <figure class="item">
+            <a href="/assets/projects/familiar/iterations/3d-print-growth.gif" target="_blank">
+                <img src="/assets/projects/familiar/iterations/3d-print-growth.gif">
+            </a>
+            <figcaption>Growth of a 3d printed object</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-12 d-flex flex-column flex-md-row">
+        <figure class="item">
+            <a href="/assets/projects/familiar/iterations/iteration-1.png" target="_blank">
+                <img src="/assets/projects/familiar/iterations/iteration-1.png">
+            </a>
+            <figcaption>Iteration 1 using Rhinoceros</figcaption>
+        </figure>
+        <figure class="item">
+            <a href="/assets/projects/familiar/iterations/iteration-2.png" target="_blank">
+                <img src="/assets/projects/familiar/iterations/iteration-2.png">
+            </a>
+            <figcaption>Iteration 2 using Rhinoceros</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-3.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Iteration 3 using Processing</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-4.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Iteration 4 using Processing</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-5.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Iteration 5 using Processing</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-6.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Iteration 6 using Processing</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-12">
+        <figure class="item">
+            <a href="/assets/projects/familiar/iterations/grasshopper-script.png" target="_blank">
+                <img src="/assets/projects/familiar/iterations/grasshopper-script.png">
+            </a>
+            <figcaption>Grasshopper script in Rhinoceros</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-7.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Iteration 7 using Rhinoceros</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-8.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Iteration 8 using Rhinoceros</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-9.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Iteration 9 using Rhinoceros</figcaption>
+        </figure>
+    </aside>
+    <aside class="col-sm-6">
+        <figure>
+            <div class="embed-responsive embed-responsive-1by1">
+                <video src="/assets/projects/familiar/iterations/iteration-10.mp4" autoplay loop muted playsinline controls class="embed-responsive-item"></video>
+            </div>
+            <figcaption>Final iteration using Rhinoceros</figcaption>
+        </figure>
+    </aside>
+</section>
+
+<!-- To improve performance -->
+<script src="/js/lib/isInViewport.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var $videos = $('video[autoplay]');
+
+        function controlVideo() {
+            $videos.each(function() {
+                var $this = $(this);
+                if ($this.is(":in-viewport")) {
+                    $this.get(0).play();
+                } else {
+                    $this.get(0).pause();
+                }
+            });
+        };
+
+        controlVideo();
+
+        $(window).on('scroll', function() {
+            controlVideo();
+        });
+    });
+</script>

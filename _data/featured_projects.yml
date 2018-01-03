@@ -26,19 +26,19 @@
   alt: 'SketchPad Mockups'
   tag: 'Design'
 
-- name: 'Color Tone'
-  title: 'Color Tone: create music through pictures'
-  url: '/portfolio/color-tone-touch-interaction.html'
-  src: '/assets/projects/color-tone/color-tone-thumbnail.jpg'
-  alt: 'Color Tone Concept'
-  tag: 'Interaction Design'
-
 - name: 'Familiar'
   title: 'Familiar: a personal AI that grows'
   url: '/portfolio/familiar.html'
   src: '/assets/projects/familiar/familiar-thumbnail.jpg'
   alt: 'Familiar Concept Illustration'
   tag: 'Design, Prototyping'
+
+- name: 'Color Tone'
+  title: 'Color Tone: create music through pictures'
+  url: '/portfolio/color-tone-touch-interaction.html'
+  src: '/assets/projects/color-tone/color-tone-thumbnail.jpg'
+  alt: 'Color Tone Concept'
+  tag: 'Interaction Design'
 
 # - title: 'Virtual Pong: swing your phone to play pong'
 #   url: '/portfolio/inertial-tracking.html'
