@@ -92,7 +92,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             figureEl,
             linkEl,
             size,
-            item;
+            item,
+            dataSize;
 
         for(var i = 0; i < numNodes; i++) {
 
@@ -105,16 +106,17 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             linkEl = figureEl.children[0]; // <a> element
 
-            size = linkEl.getAttribute('data-size').split('x');
-
             // create slide object
             item = {
-                src: linkEl.getAttribute('href'),
-                w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
+                src: linkEl.getAttribute('href')
             };
 
-
+            dataSize = linkEl.getAttribute('data-size');
+            if (dataSize) {
+                size = linkEl.getAttribute('data-size').split('x');
+                item.w = parseInt(size[0], 10);
+                item.h = parseInt(size[1], 10);
+            }
 
             if(figureEl.children.length > 1) {
                 // <figcaption> content
@@ -124,6 +126,10 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             if(linkEl.children.length > 0) {
                 // <img> thumbnail element, retrieving thumbnail url
                 item.msrc = linkEl.children[0].getAttribute('src');
+                if ( !item.w ) {
+                    item.w = linkEl.children[0].naturalWidth;
+                    item.h = linkEl.children[0].naturalHeight;
+                }
             }
 
             item.el = figureEl; // save link to element for getThumbBoundsFn
@@ -141,13 +147,12 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     // triggers when user clicks on thumbnail
     var onThumbnailsClick = function(e) {
         e = e || window.event;
-        e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
         var eTarget = e.target || e.srcElement;
 
         // find root element of slide
         var clickedListItem = closest(eTarget, function(el) {
-            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE' && el.classList.contains('item'));
         });
 
         if(!clickedListItem) {
@@ -161,6 +166,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         if(!clickedGallery) {
             return;
         }
+
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
         // find index of clicked item by looping through all child nodes
         // alternatively, you may define index via data- attribute
@@ -297,11 +304,6 @@ initPhotoSwipeFromDOM('{% if include.selector %}{{ include.selector }}{% else %}
 
 <style>
 
-    figure {
-        margin: 0;
-        margin-bottom: -0.5rem;
-    }
-
     .more {
     	cursor: pointer;
     }
@@ -311,11 +313,11 @@ initPhotoSwipeFromDOM('{% if include.selector %}{{ include.selector }}{% else %}
         -webkit-column-count: 2;
         column-count: 2;
 
-        -moz-column-gap: 1.5rem;
-        -webkit-column-gap: 1.5rem;
-        column-gap: 1.5rem;
+        -moz-column-gap: 0.75rem;
+        -webkit-column-gap: 0.75rem;
+        column-gap: 0.75rem;
 
-        margin: 1.5rem 0;
+        margin: 0.75rem 0;
         padding: 0;
         font-size: .85em;
 
@@ -323,7 +325,7 @@ initPhotoSwipeFromDOM('{% if include.selector %}{{ include.selector }}{% else %}
 
     .masonry .item { /* Masonry bricks or child elements */
         display: inline-block;
-        margin: 0 0 1.5rem;
+        margin: 0 0 0.75rem;
         width: 100%;
     }
 
@@ -334,18 +336,36 @@ initPhotoSwipeFromDOM('{% if include.selector %}{{ include.selector }}{% else %}
     }
 
     .masonry .item img {
-        border-radius: 0.3rem;
+        border-radius: 0.1rem;
+        width: 100%;
     }
 
-    @media (min-width: 48rem) {
+    .masonry .item a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
         .masonry { /* Masonry container */
             -moz-column-count: 3;
             -webkit-column-count: 3;
             column-count: 3;
+        }
+    }
 
-            -moz-column-gap: 1.5rem;
-            -webkit-column-gap: 1.5rem;
-            column-gap: 1.5rem;
+    @media (min-width: 992px) {
+        .masonry { /* Masonry container */
+            -moz-column-count: 4;
+            -webkit-column-count: 4;
+            column-count: 4;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .masonry { /* Masonry container */
+            -moz-column-count: 5;
+            -webkit-column-count: 5;
+            column-count: 5;
         }
     }
 

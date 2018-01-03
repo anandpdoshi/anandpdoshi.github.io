@@ -1,0 +1,14 @@
+.footer-container .col {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-link {
+    padding-top: 0;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-container .row {
+    padding-bottom: 4rem;
+    font-size: 80%;
+}

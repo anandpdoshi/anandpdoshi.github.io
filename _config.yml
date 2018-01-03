@@ -7,3 +7,5 @@ url: http://apd.is
 permalink: none
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
+  

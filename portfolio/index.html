@@ -4,25 +4,23 @@ title: Portfolio of Anand Doshi
 heading: Design
 ---
 
-{% for post in site.categories['portfolio'] %}
-    <a class="no-decoration post-link" href="{{ post.url }}">
-        <div class="row">
-            <div class="column column-left">
-                <div class="bar"></div>
-                <label>{{ post.title }}</label>
+<div class="row project-row">
+    {% for post in site.categories['portfolio'] %}
+    <div class="col-12
+        {% if post.cols %} {{ post.cols }} {% else %} col-md-6 {% endif %} project-col">
+        <a href="{{ post.url }}" class="no-decoration project-content">
+            <div class="bar grey"></div>
+            <div class="item">
+                <h5>
+                    {{ post.title }}
+                </h5>
+                <!-- <p>{{ post.excerpt | strip_html }}</p> -->
+                <!-- <span class="text-muted small tag">{{ post.date | date_to_long_string }}</span><br><br> -->
+                <img src="{{ post.src }}" alt=""
+                    {% if post.img_style %}style="{{ post.img_style }}"{% endif %}>
             </div>
-            <div class="column column-right">
-                {{ post.excerpt | strip_html }}
-                <br>
-                <span class="text-muted small">{{ post.date | date_to_long_string }}</span><br><br>
-                {% if post.src %}
-                <div class="img-container">
-                    <img src="{{ post.src }}" alt="" {% if post.img_style %} style="{{ post.img_style }}" {% endif %}>
-                </div>
-                {% endif %}
+        </a>
+    </div>
+    {% endfor %}
 
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </a>
-{% endfor %}
+</div>

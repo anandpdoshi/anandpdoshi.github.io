@@ -1,0 +1,16 @@
+/* bar component */
+.bar {
+    position: relative;
+    height: 0.3rem;
+    width: 2rem;
+    border-radius: 6rem;
+    background-color: rgba(0, 0, 0, 1);
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.bar.grey {
+    background-color: rgba(0, 0, 0, 0.1);
+    /*background-color: #BBBDBF;*/
+}

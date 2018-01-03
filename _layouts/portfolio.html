@@ -1,42 +1,17 @@
 ---
 layout: base
 ---
-<div class="row">
-    <div class="column column-left">
-        <div class="bar"></div>
-        <label>{{ page.date | date: "%B %Y" }}</label>
-        {% if page.sidebar %}
-        <br>
-        <p class="text-muted">
-            {{ page.sidebar | strip_html }}
-        </p>
-        {% endif %}
-    </div>
-    <div class="column column-right">
-        <article class="portfolio">
-        	<p>
-        	{{ content }}
-        	</p>
-        </article>
+<hr class="mb-4 mt-2">
+<article class="portfolio">
+	{{ content }}
+</article>
 
-      {% if page.previous.url and page.previous.categories contains "portfolio" %}
-        <div class="page-navigation">
+<script type="text/javascript">
+    console.log("{{ page.previous.url }}");
+    console.log("{{ page.next.url }}");
+    console.log("");
+</script>
 
-            <a class="prev" href="{{page.previous.url}}">Next, {{page.previous.title}}</a> →
-        </div>
-      {% endif %}
-    </div>
-    <div class="clearfix"></div>
-</div>
+{% include photoswipe.html selector=".content-container" %}
 
-<style>
-.page-navigation {
-    text-align: right;
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-}
-
-</style>
-
-
-
+{% include postnav.html %}
