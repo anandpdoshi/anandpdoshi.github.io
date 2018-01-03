@@ -141,3 +141,42 @@ article {
     background-size: cover;
     background-position: center center;
 }
+
+.footer-container {
+    .social-icon {
+        width: 1.5rem;
+        transition: filter .5s ease-in-out;
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(100%); /* FF 35+ */
+
+        &.github-icon {
+            opacity: 0.6;
+        }
+    }
+
+    .email-link {
+        font-size: 2rem;
+        padding-top: 0;
+        margin-top: -0.2rem;
+        margin-bottom: -1rem;
+        color: #666;
+    }
+
+    .nav-link {
+        &:hover, &:focus, &:active {
+            .social-icon {
+                -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+                filter: grayscale(0%); /* FF 35+ */
+
+                &.github-icon {
+                    opacity: 1;
+                }
+            }
+
+            &.email-link {
+                color: #000;
+            }
+        }
+    }
+
+}

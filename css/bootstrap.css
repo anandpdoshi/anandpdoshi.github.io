@@ -6570,4 +6570,29 @@ article {
   background-size: cover;
   background-position: center center; }
 
+.footer-container .social-icon {
+  width: 1.5rem;
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%);
+  /* FF 35+ */ }
+  .footer-container .social-icon.github-icon {
+    opacity: 0.6; }
+.footer-container .email-link {
+  font-size: 2rem;
+  padding-top: 0;
+  margin-top: -0.2rem;
+  margin-bottom: -1rem;
+  color: #666; }
+.footer-container .nav-link:hover .social-icon, .footer-container .nav-link:focus .social-icon, .footer-container .nav-link:active .social-icon {
+  -webkit-filter: grayscale(0%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%);
+  /* FF 35+ */ }
+  .footer-container .nav-link:hover .social-icon.github-icon, .footer-container .nav-link:focus .social-icon.github-icon, .footer-container .nav-link:active .social-icon.github-icon {
+    opacity: 1; }
+.footer-container .nav-link:hover.email-link, .footer-container .nav-link:focus.email-link, .footer-container .nav-link:active.email-link {
+  color: #000; }
+
 /*# sourceMappingURL=bootstrap.css.map */
