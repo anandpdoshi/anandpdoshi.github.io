@@ -1,15 +1,15 @@
-- name: 'Musi'
-  title: 'Musi: a practice tool for musicians'
-  url: '/portfolio/musi.html'
-  src: '/assets/projects/musi/musi-thumbnail.jpg'
-  alt: 'Musi Display'
-  tag: 'Design, Prototyping'
-
 - name: 'Cocoon'
   title: 'Cocoon: a smart sleep mask'
   url: '/portfolio/cocoon.html'
   src: '/assets/projects/cocoon/cocoon-thumbnail.jpg'
   alt: 'Cocoon Display'
+  tag: 'Design, Prototyping'
+
+- name: 'Musi'
+  title: 'Musi: a practice tool for musicians'
+  url: '/portfolio/musi.html'
+  src: '/assets/projects/musi/musi-thumbnail.jpg'
+  alt: 'Musi Display'
   tag: 'Design, Prototyping'
 
 - name: 'Babble'
