@@ -3,26 +3,24 @@ layout: base
 title: Code by Anand Doshi
 heading: Code
 ---
+<div class="row project-row">
+    {% for post in site.data.code %}
+    <div class="col-12
+        {% if post.cols %} {{ post.cols }} {% else %} col-md-6 {% endif %} project-col">
+        <a href="{{ post.url }}" class="no-decoration project-content">
+            <div class="bar grey"></div>
+            <div class="item">
+                <h5>
+                    {{ post.title }}
+                </h5>
+                <p>{{ post.description | strip_html }}</p>
+                {% if post.src %}
+                <img src="{{ post.src }}" alt=""
+                    {% if post.img_style %}style="{{ post.img_style }}"{% endif %}>
+                {% endif %}
+            </div>
+        </a>
+    </div>
+    {% endfor %}
 
-{% for post in site.data.code %}
-    <a class="no-decoration post-link" href="{{ post.href }}" target="_blank">
-        <div class="row code-row">
-            <div class="column column-left">
-                <div class="bar"></div>
-                <label>{{ post.title }}</label>
-            </div>
-            <div class="column column-right">
-                <article>
-                    {{ post.description | strip_html }}
-                    <br><br>
-                    {% if post.src %}
-                    <div class="img-container">
-                        <img src="{{ post.src }}" alt="" {% if post.img_style %} style="{{ post.img_style }}" {% endif %}>
-                    </div>
-                    {% endif %}
-                </article>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </a>
-{% endfor %}
+</div>
