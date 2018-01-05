@@ -6525,11 +6525,11 @@ article {
     font-family: 'Europa', sans-serif; }
   article label, article .label, article h4, article h5 {
     font-weight: bold; }
-  article section {
+  article > section {
     margin-bottom: 3rem; }
-    article section aside {
+    article > section aside {
       padding-right: 0 !important; }
-      article section aside > div, article section aside > figure {
+      article > section aside > div, article > section aside > figure {
         padding-bottom: 15px;
         padding-right: 15px; }
   article p > a {

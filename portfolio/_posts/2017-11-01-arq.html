@@ -1,0 +1,161 @@
+---
+layout: portfolio
+title: "ARQ: exploring layered augmented reality"
+category: portfolio
+src: /assets/projects/ARQ/ARQ-thumbnail.jpg
+---
+<section>
+    <figure class='item'>
+        <a href="/assets/projects/ARQ/ARQ-thumbnail.jpg" target="_blank">
+            <img src="/assets/projects/ARQ/ARQ-thumbnail.jpg" alt="">
+        </a>
+        <figcaption>Picture showing a prototype of a layered AR system</figcaption>
+    </figure>
+</section>
+
+<section class="row">
+    <section class="col-xl-7">
+        <p>
+            There has been a marked increase in consumer applications of Augmented Reality, primarily due to the recent release of Augmented Reality frameworks on popular mobile platforms, as well as the future potential of Hololens and MagicLeap. However, currently these applications are <strong>approached from the lens of apps and games.</strong> You have to switch between these apps and games, as they can be activated one at a time. <strong>They are still constrained by the architecture of their platforms.</strong>
+        </p>
+
+        <p>
+            Another approach to Augmented Reality could be to think about it as layers of digital feeds superimposed on the real world. <strong>A user would be subscribed to feeds from various source, and such a system would know what to render based on the location, orientation, and objects in its view.</strong> This is similar to how a web browser renders a page based on the URL, and its HTML, CSS and JavaScript.
+        </p>
+    </section>
+    <aside class="col-xl-5">
+        <figure class="item">
+            <a href="/assets/projects/ARQ/current-ar-technologies.jpeg" target="_blank">
+                <img src="/assets/projects/ARQ/current-ar-technologies.jpeg" alt="">
+            </a>
+            <figcaption>Current AR Technologies</figcaption>
+        </figure>
+    </aside>
+</section>
+
+<!-- my role -->
+<section class="row">
+    <section class="col-xl-7">
+        <h4>My Role</h4>
+        <p>
+            This was a month long solo project as part of the SciFi Prototyping course. It was my first attempt at AR, and I learned a lot about its usability issues throughout my design iterations. I also had to overcome many roadblocks in implementing the prototype using an unstable version of ARjs and a failed attempt at using ARToolkit 6 through Unity. I wish I had a newer iPhone and had used ARKit.
+        </p>
+
+        <p>
+            <label>Duration</label>&nbsp;
+            Fall 2017, 4 weeks
+        </p>
+
+        <div class="row">
+            <div class="col">
+                <label>Skills</label>
+                <p>
+                    Sketching<br>
+                    Prototyping<br>
+                    Full-stack Development
+                </p>
+            </div>
+            <div class="col">
+                <label>Tools</label>
+                <p>
+                    <a href="http://hrqr.org/" target="_blank">HRQR</a><br>
+                    <a href="https://github.com/jeromeetienne/AR.js" target="_blank">AR.js</a><br>
+                    <a href="https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html" target="_blank">AR.js Marker Training</a><br>
+                    ThreeJS + WebGL<br>
+                    Flask + SQLite
+                </p>
+            </div>
+        </div>
+    </section>
+    <aside class="col-xl-5 d-flex flex-column flex-md-row flex-xl-column">
+        <figure class="item">
+            <a href="/assets/projects/ARQ/prototype-1.png" target="_blank">
+                <img src="/assets/projects/ARQ/prototype-1.png" class="border">
+            </a>
+            <figcaption>Detecting multiple distinct markers</figcaption>
+        </figure>
+        <figure class="item">
+            <a href="/assets/projects/ARQ/prototype-2.png" target="_blank">
+                <img src="/assets/projects/ARQ/prototype-2.png">
+            </a>
+            <figcaption>Showing multiple images on the same marker</figcaption>
+        </figure>
+    </aside>
+</section>
+
+<section class="row">
+    <section class="col-xl-7">
+        <h4>Prototype</h4>
+    </section>
+    <aside class="col-12 d-flex flex-column">
+        <figure class="item">
+            <a href="/assets/projects/ARQ/device-1.jpg" target="_blank">
+                <img src="/assets/projects/ARQ/device-1.jpg"
+                    alt="">
+            </a>
+            <figcaption>On User A's device</figcaption>
+        </figure>
+        <figure class="item">
+            <a href="/assets/projects/ARQ/device-2.jpg" target="_blank">
+                <img src="/assets/projects/ARQ/device-2.jpg"
+                    alt="Other device detects the same marker, and displays the public image associated with it. This user can associate a different image with the marker, and make it public or private. Once uploaded, the marker is now overlaid with the new image. Private image has priority.">
+            </a>
+            <figcaption>On User B's device</figcaption>
+        </figure>
+    </aside>
+    <section class="col-xl-12">
+        <p class="lead">
+            <strong>The prototype web-application demonstrates public and private layers of images across multiple users.</strong>
+        </p>
+    </section>
+    <section class="col-xl-6">
+        <p>
+            When <strong>User A's phone</strong> detects a marker, and if no image is associated with that marker, the user can upload an image for that marker, and set it as public or private. Once uploaded, the image immediately appears over the marker. Private images are visible only to the owner, whereas public images get displayed for everyone using the system.
+        </p>
+    </section>
+    <section class="col-xl-6">
+        <p>
+            On detecting the same marker, <strong>User B's phone</strong> shows the public image uploaded by User A for that marker. User B can upload another image on the same marker, and set it is public or private. This image is displayed on top of the image uploaded by User A.
+        </p>
+    </section>
+    <section class="col-xl-7">
+        <p>
+            <strong>If both images are private, only the respective users will be able to see those images.</strong> But, if both upload a public image, the most recent image will be displayed on top.
+        </p>
+        <p>
+            Due to performance limitations of my phone, I could not implement a way to interact with and swipe through multiple images. To improve usability, I ensured that the image upload box remained visible when the user has already started interacting with it, even if the marker goes out of the camera's view.
+        </p>
+        <p>
+            <a href="https://github.com/anandpdoshi/shared-ar-research" target="_blank">The source code can be found on Github.</a>
+        </p>
+    </section>
+    <aside class="col-xl-4 offset-xl-1">
+        <p class="lead mt-0 pr-1">
+            <small>Stack:</small><br>
+            <strong>AR.js</strong> detects markers<br>
+            <strong>ThreeJS + WebGL</strong> to display images<br>
+            <strong>Flask + SQLite</strong> for backend
+        </p>
+    </aside>
+
+</section>
+
+<section class="row">
+    <section class="col-xl-7">
+        <h4>Future Considerations</h4>
+        <p>
+            Similar to the internet, such an AR system would need to have its own standards and protocols, and a regulatory body that thinks and establishes them. It also raises many security and privacy concerns. Should you be able to see what others see in their AR vision? Do you have the right to block public AR feeds? How will we handle cross-device compatibility issues? Will we have differences in rendering, like we have with emojis, font-rendering, and implementation differences in HTML and CSS? Should you be able to display something over my face or body?
+        </p>
+        <p>
+            I think such a system has the potential to change the way we interact with reality. However, due to present limitations and large scope, I could only explore a tiny part of the system. 
+        </p>
+    </section>
+    <aside class="col-xl-4 offset-xl-1 d-flex flex-column flex-md-row flex-xl-column">
+        <!-- <figure class="item">
+            <a href="/assets/projects/ARQ/prototype-2.png" target="_blank">
+                <img src="/assets/projects/ARQ/prototype-2.png">
+            </a>
+            <figcaption>Initial Prototypes and Iterations</figcaption>
+        </figure> -->
+    </aside>
+</section>

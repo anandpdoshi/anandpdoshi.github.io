@@ -150,6 +150,10 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         var eTarget = e.target || e.srcElement;
 
+        if (eTarget && eTarget.href && eTraget.rel && eTraget.rel.indexOf("external") !== -1) {
+            return;
+        }
+
         // find root element of slide
         var clickedListItem = closest(eTarget, function(el) {
             return (el.tagName && el.tagName.toUpperCase() === 'FIGURE' && el.classList.contains('item'));
