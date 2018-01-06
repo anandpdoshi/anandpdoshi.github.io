@@ -1,0 +1,31 @@
+---
+layout: portfolio
+title: Sonic Pong
+heading: Sonic Pong
+category: portfolio
+src: /assets/projects/code/sonic-pong.jpg
+redirect_from: "/portfolio/acoustic-tracking.html"
+---
+
+<section>
+    <figure>
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe class="embed-responsive-item"
+              src="https://player.vimeo.com/video/184966169?badge=0&byline=0&portrait=0&title=0"
+              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <figcaption>Video demonstrating how acoustic tracking is used to track the number of times the ball has bounced on the ping pong paddle</figcaption>
+    </figure>
+</section>
+
+<section class="row">
+    <section class="col-xl-7">
+        Sound Pong is a simple game in which a player uses a ping pong paddle to bounce the ball in the air and aims to get the highest score for the number of times the ball bounced on the paddle. It uses a mic, attached to the base of the paddle, to capture the audio signal. A <a href="https://cycling74.com/products/max/" target='_blank'>Max</a> patch is then used to detect the peaks in the audio (acoustic tracking) and increment a counter. Once the player loses control of the ball, the counter can be reset by blowing air into the mic. <a href="/assets/others/toughspirit-blog-files/portfolio/umsi/SI515/Acoustic%20Tracking.pdf" target="_blank">Read Full Report</a>
+    </section>
+    <aside class="col-xl-5">
+        <figure>
+        	<img src="/assets/others/toughspirit-blog-files/portfolio/umsi/SI515/SonicPong.png" class="img-responsive" title="Schematic Diagram for Sonic Pong" alt="Schematic Diagram for Sonic Pong" style="margin-bottom: 15px;"/>
+        	<figcaption>Schematic Diagram for Sonic Pong</figcaption>
+        </figure>
+    </aside>
+</section>
