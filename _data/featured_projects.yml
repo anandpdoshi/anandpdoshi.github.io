@@ -60,13 +60,13 @@
 #   src: '/assets/projects/more-projects/design-thumbnail.jpg'
 #   alt: 'Representative image for design projects'
 #   tag: 'Design'
-#
-# - name: 'Code'
-#   title: 'Code: Python, JavaScript, Processing'
-#   url: '/portfolio/code.html'
-#   src: '/assets/projects/code/code-thumbnail.jpg'
-#   alt: 'Representative image for coding projects'
-#   tag: 'Code'
+
+- name: 'Code'
+  title: 'Code: Python, JavaScript, Processing'
+  url: '/portfolio/code.html'
+  src: '/assets/projects/code/code-thumbnail.jpg'
+  alt: 'Representative image for coding projects'
+  tag: 'Code'
 
 # - title: 'ERPNext: an open source business application'
 #   url: '/portfolio/erpnext.html'
