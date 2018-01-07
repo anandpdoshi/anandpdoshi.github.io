@@ -54,12 +54,12 @@
   alt: 'Schematic Diagram for Virtual Pong'
   tag: 'Interaction Design'
 
-# - name: 'More Projects'
-#   title: 'More Projects: UX Design, Visual Design'
-#   url: '/portfolio/more-projects.html'
-#   src: '/assets/projects/more-projects/design-thumbnail.jpg'
-#   alt: 'Representative image for design projects'
-#   tag: 'Design'
+- name: 'More Projects'
+  title: 'More: UX Design, Visual Design'
+  url: '/portfolio/more-projects.html'
+  src: '/assets/projects/more/design-thumbnail.jpg'
+  alt: 'Representative image for design projects'
+  tag: 'Design'
 
 - name: 'Code'
   title: 'Code: Python, JavaScript, Processing'

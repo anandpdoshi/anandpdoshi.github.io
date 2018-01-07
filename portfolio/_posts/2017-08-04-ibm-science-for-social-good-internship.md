@@ -1,9 +1,9 @@
 ---
 layout: portfolio
-title: "Digital Storytelling Experience: IBM Research Internship"
+title: "IBM: Digital storytelling for a non-profit"
 excerpt: "An interactive storytelling website about emergency food best practices that educates, engages and sticks"
 category: portfolio
-src: /assets/others/ibm/website-thumbnail.png
+src: /assets/projects/more/IBM.jpg
 ---
 
 

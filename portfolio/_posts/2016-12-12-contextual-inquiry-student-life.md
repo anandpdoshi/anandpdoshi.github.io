@@ -36,9 +36,9 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
           To use this tool effectively, data about student activities needs to be collected and uploaded into the system. This data collection is done by the 27 units which are part of Student Life organization. However, this data is highly inconsistent and some units have a significant backlog of missing data. Our goal was to identify the problems with the data collection efforts.
        </p>
 
-       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting.jpg" itemprop="contentUrl" data-size="2013x1080" class="no-decoration" target="_blank">
-               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting-thumbnail.jpg" itemprop="thumbnail" alt="Our team with the client" />
+       <figure class="item">
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting.jpg" data-size="2013x1080" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/client-meeting-thumbnail.jpg" alt="Our team with the client" />
            </a>
        </figure>
    </li>
@@ -65,9 +65,9 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
            I worked on answering the first question, by learning more about the goals of Student Life, its history, its organization structure and leadership, its sub-units, past and current fund-raising campaigns, and its relationship with the Data Management Team.
        </p>
 
-       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/background-research.jpg" itemprop="contentUrl" data-size="2000×1125" class="no-decoration" target="_blank">
-               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/background-research-thumbnail.jpg" itemprop="thumbnail" alt="About Student Life" />
+       <figure class="item">
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/background-research.jpg" data-size="2000×1125" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/background-research-thumbnail.jpg" alt="About Student Life" />
            </a>
        </figure>
 
@@ -95,9 +95,9 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
        <strong>Affinity Wall</strong><br>
        The most demanding, yet exhilarating task was making the Affinity Wall. We hand picked over 400 notes from our interpretation of interviews and went about making sense of the situation. As we grouped related content, we could see patterns emerging that we had not anticipated. Not only the flow of information became much clearer, we could also see that <strong>the problem in its simplest form was related to lack of transparency and collaboration.</strong>
 
-       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall.jpg" itemprop="contentUrl" data-size="2000×716" class="no-decoration" target="_blank">
-               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall-thumbnail.jpg" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
+       <figure class="item">
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall.jpg" data-size="2000×716" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/affinity-wall-thumbnail.jpg" alt="Photo of our Affinity Wall" />
            </a>
        </figure>
    </li>
@@ -105,15 +105,15 @@ With 27 units and over a 1000 student organizations, Student Life is an umbrella
        <strong>Brainstorming</strong><br>
        Once we identified the overarching problem, we decided to visualize the map of information flow and how we can structure our brainstorming session around it. We were still not fed up of using stickies, and quickly came up with several primary as well as secondary recommendations for each stakeholder.
 
-       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" itemprop="contentUrl" data-size="2700×3450" class="no-decoration" target="_blank">
-               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
+       <figure class="item">
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" data-size="2700×3450" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/student-life-visualization.png" alt="Photo of our Affinity Wall" />
            </a>
        </figure>
 
-       <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="item">
-           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" itemprop="contentUrl" data-size="1752×966" class="no-decoration" target="_blank">
-               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" itemprop="thumbnail" alt="Photo of our Affinity Wall" />
+       <figure class="item">
+           <a href="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" data-size="1752×966" class="no-decoration" target="_blank">
+               <img src="/assets/others/toughspirit-blog-files/portfolio/contextual-inquiry/recommendations.png" alt="Photo of our Affinity Wall" />
            </a>
        </figure>
    </li>
