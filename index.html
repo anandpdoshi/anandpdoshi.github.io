@@ -12,12 +12,12 @@ heading: 'Projects'
     <div class="col-xl-6 project-col {% if forloop.index >= 11 %}d-none{% endif %}">
         <a href="{{ project.url }}" class="no-decoration project-content">
             <div class="item">
-                <h5>
+                <h4>
                     {{ project.title }}
                     <!-- {% if project.tag %}
                     <span class="small tag">{{ project.tag }}</span>
                     {% endif %} -->
-                </h5>
+                </h4>
                 <img src="{{ project.src }}" alt="{{ project.alt }}"
                     {% if project.img_style %}style="{{ project.img_style }}"{% endif %}>
             </div>

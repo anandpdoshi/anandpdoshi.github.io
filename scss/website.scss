@@ -10,13 +10,12 @@
 
 .heading-row {
     h3 {
-        font-weight: bold;
+        font-weight: $extra;
     }
 }
 
 .project-row {
     margin-top: 2rem;
-    // margin-bottom: -3rem;
     margin-left: -15px;
     margin-right: -3rem;
     position: relative;
@@ -30,11 +29,11 @@
     .tag {
         @extend .text-muted;
         display: block;
-        font-weight: 400;
+        font-weight: $normal;
     }
 
-    h5 {
-        font-weight: 700;
+    h4 {
+        font-weight: $bold;
     }
 
     .more-wrapper {
@@ -43,9 +42,9 @@
 }
 
 article {
-    font-family: 'EB Garamond', sans-serif;
+    font-family: $bodyFont, sans-serif;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: $normal;
     position: relative;
     // line-height: 1.6;
 
@@ -57,11 +56,11 @@ article {
     .h1, .h2, .h3, .h4, .h5, .h6,
     label, .label,
     figure, .pswp {
-        font-family: 'Europa', sans-serif;
+        font-family: $titleFont, sans-serif;
     }
 
     label, .label, h4, h5 {
-        font-weight: bold;
+        font-weight: $bold;
     }
 
     & > section {
@@ -93,8 +92,12 @@ article {
 
     .lead {
         font-size: 2rem;
-        font-family: 'Europa', sans-serif;
+        font-family: $titleFont, sans-serif;
         margin: 2rem 0;
+
+        strong, .strong {
+            font-weight: $bold;
+        }
     }
 
     figure {

@@ -1,16 +1,24 @@
+$titleFont: 'Nunito Sans';
+$bodyFont: 'EB Garamond';
+
+// font weights
+$normal: 400;
+$strong: 600;
+$bold: 700;
+$extra: 800;
+
 body {
     position: relative;
     overflow-x: hidden;
-    font-family: 'Europa', sans-serif;
-    font-weight: 400;
+    font-family: $titleFont, sans-serif;
+    font-weight: $normal;
     color: #333;
     line-height: 1.5;
 }
 
 strong, .strong {
     font-family: inherit;
-    font-weight: bold;
-    font-weight: 600;
+    font-weight: $strong;
 }
 
 small, .small {
