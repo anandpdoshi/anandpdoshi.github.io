@@ -6,10 +6,7 @@ heading: 'Projects'
 
 <div class="row project-row">
     {% for project in site.data.featured_projects %}
-    {% if forloop.index == 11 %}
-    <div class="col-12 more-wrapper"><a href="" class="btn btn-outline-dark btn-block btn-more">More Projects</a></div>
-    {% endif %}
-    <div class="col-xl-6 project-col {% if forloop.index >= 11 %}d-none{% endif %}">
+    <div class="col-xl-6 project-col">
         <a href="{{ project.url }}" class="no-decoration project-content">
             <div class="item">
                 <h4>
@@ -27,17 +24,3 @@ heading: 'Projects'
 
 </div>
 
-<script type="text/javascript">
-    var moreBtn = document.querySelector('.project-row .btn-more');
-    if (moreBtn) {
-        moreBtn.onclick = function(event) {
-            event.preventDefault();
-
-            document.querySelectorAll('.project-row .d-none').forEach(function(el) {
-                el.classList.remove('d-none');
-            });
-
-            document.querySelector('.project-row .more-wrapper').classList.add('d-none');
-        };
-    }
-</script>

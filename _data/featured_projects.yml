@@ -54,6 +54,13 @@
   alt: 'Schematic Diagram for Virtual Pong'
   tag: 'Interaction Design'
 
+- name: 'Lansion iOS App Redesign'
+  title: 'Lansion iOS App Redesign'
+  url: '/portfolio/lansinoh-ios-app.html'
+  src: '/assets/projects/lansinoh-ios-app/splash.png'
+  alt: 'Lansinoh Baby'
+  tag: 'Visual Design'
+
 - name: 'More Projects'
   title: 'More: UX Design, Visual Design'
   url: '/portfolio/more-projects.html'

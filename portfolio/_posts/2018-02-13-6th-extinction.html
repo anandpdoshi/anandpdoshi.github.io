@@ -1,0 +1,43 @@
+---
+layout: portfolio
+title: 'The 6th Extinction'
+excerpt: Posters on the 6th extinction, inspired by Zaha Hadid's work
+category: portfolio
+src: /assets/others/toughspirit-blog-files/portfolio/umsi/SI520/Infographic/infographic-avocado.thumbnail.jpg
+---
+
+<p class="lead">Posters on the 6th extinction, inspired by Zaha Hadid's work</p>
+
+<figure class='item'>
+    <a href="/assets/projects/6th-extinction/small/typography-1/together.png" target="_blank" class="no-decoration">
+        <img src="/assets/projects/6th-extinction/small/typography-1/together.png" alt="">
+    </a>
+</figure>
+<figure class='item'>
+    <a href="/assets/projects/6th-extinction/small/typography-2/together.png" target="_blank" class="no-decoration">
+        <img src="/assets/projects/6th-extinction/small/typography-2/together.png" alt="">
+    </a>
+</figure>
+
+{% assign files = "01-The-6th-extinction.png,02-Elephant.png,03-Albatross.png,04-Bee.png,05-Fish.png,06-Orungatun.png" | split: ',' %}
+
+{% for file in files %}
+<div class="row">
+    <div class="col-6">
+        <figure class='item'>
+            <a href="/assets/projects/6th-extinction/large/typography-1/{{ file }}" target="_blank"
+                class="no-decoration">
+                <img src="/assets/projects/6th-extinction/small/typography-1/{{ file }}" alt="">
+            </a>
+        </figure>
+    </div>
+    <div class="col-6">
+        <figure class='item'>
+            <a href="/assets/projects/6th-extinction/large/typography-2/{{ file }}" target="_blank"
+                class="no-decoration">
+                <img src="/assets/projects/6th-extinction/small/typography-2/{{ file }}" alt="">
+            </a>
+        </figure>
+    </div>
+</div>
+{% endfor %}
