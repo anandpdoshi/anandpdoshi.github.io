@@ -61,6 +61,13 @@
   alt: 'Lansinoh Baby'
   tag: 'Visual Design'
 
+- name: 'The 6th Extinction: Poster Design'
+  title: 'The 6th Extinction: Poster Design'
+  url: '/portfolio/6th-extinction.html'
+  src: '/assets/projects/6th-extinction/splash.png'
+  alt: 'African elephants going extinct'
+  tag: 'Visual Design'
+
 - name: 'More Projects'
   title: 'More: UX Design, Visual Design'
   url: '/portfolio/more-projects.html'
