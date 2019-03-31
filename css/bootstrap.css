@@ -6359,14 +6359,14 @@ a.text-dark:focus, a.text-dark:hover {
 body {
   position: relative;
   overflow-x: hidden;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "HKGrotesk", sans-serif;
   font-weight: 400;
   color: #333;
   line-height: 1.5; }
 
 strong, .strong {
   font-family: inherit;
-  font-weight: 600; }
+  font-weight: 800; }
 
 small, .small {
   font-weight: inherit; }
@@ -6488,6 +6488,9 @@ header .sub-text {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem; }
 
+header {
+  font-weight: 500; }
+
 .heading-row h3 {
   font-weight: 800; }
 
@@ -6504,7 +6507,7 @@ header .sub-text {
     display: block;
     font-weight: 400; }
   .project-row h4 {
-    font-weight: 700; }
+    font-weight: 800; }
   .project-row .more-wrapper {
     padding-right: 3rem; }
 
@@ -6519,9 +6522,9 @@ article {
   article .h1, article .h2, article .h3, article .h4, article .h5, article .h6,
   article label, article .label,
   article figure, article .pswp {
-    font-family: "Nunito Sans", sans-serif; }
+    font-family: "HKGrotesk", sans-serif; }
   article label, article .label, article h4, article h5 {
-    font-weight: 700; }
+    font-weight: 800; }
   article > section {
     margin-bottom: 3rem; }
     article > section aside {
@@ -6538,10 +6541,10 @@ article {
       max-width: 40rem; } }
   article .lead {
     font-size: 2rem;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "HKGrotesk", sans-serif;
     margin: 2rem 0; }
     article .lead strong, article .lead .strong {
-      font-weight: 700; }
+      font-weight: 800; }
   article figure {
     margin: 0; }
   article figure figcaption {
