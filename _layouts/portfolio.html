@@ -6,12 +6,6 @@ layout: base
 	{{ content }}
 </article>
 
-<script type="text/javascript">
-    console.log("{{ page.previous.url }}");
-    console.log("{{ page.next.url }}");
-    console.log("");
-</script>
-
 {% include photoswipe.html selector=".content-container" %}
 
 {% include postnav.html %}

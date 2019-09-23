@@ -30,10 +30,19 @@ header {
         padding-right: 3rem;
     }
 
+    .tags {
+        font-size: 1rem;
+    }
+
     .tag {
-        @extend .text-muted;
-        display: block;
+        // @extend .text-muted;
+        display: inline-block;
         font-weight: $normal;
+        border-radius: 0.1rem;
+        border: 1px solid $black;
+        padding: 0.2rem 0.5rem 0.15rem;
+        margin-bottom: 0.75rem;
+        font-weight: $bold;
     }
 
     h4 {

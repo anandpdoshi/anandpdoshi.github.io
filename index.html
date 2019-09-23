@@ -6,15 +6,18 @@ heading: 'Projects'
 
 <div class="row project-row">
     {% for project in site.data.featured_projects %}
+    {% assign tags = project.tag | split: ", " %}
     <div class="col-xl-6 project-col">
         <a href="{{ project.url }}" class="no-decoration project-content">
             <div class="item">
                 <h4>
                     {{ project.title }}
-                    <!-- {% if project.tag %}
-                    <span class="small tag">{{ project.tag }}</span>
-                    {% endif %} -->
                 </h4>
+                <div class="tags">
+                    {% for tag in tags %}
+                    <span class="small tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
                 <img src="{{ project.src }}" alt="{{ project.alt }}"
                     {% if project.img_style %}style="{{ project.img_style }}"{% endif %}>
             </div>

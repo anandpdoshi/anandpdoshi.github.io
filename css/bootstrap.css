@@ -6340,7 +6340,7 @@ a.text-light:focus, a.text-light:hover {
 a.text-dark:focus, a.text-dark:hover {
   color: #1d2124 !important; }
 
-.text-muted, .project-row .tag {
+.text-muted {
   color: #868e96 !important; }
 
 .text-hide {
@@ -6503,9 +6503,16 @@ header {
     padding-bottom: 3rem;
     padding-left: 15px;
     padding-right: 3rem; }
+  .project-row .tags {
+    font-size: 1rem; }
   .project-row .tag {
-    display: block;
-    font-weight: 400; }
+    display: inline-block;
+    font-weight: 400;
+    border-radius: 0.1rem;
+    border: 1px solid #333;
+    padding: 0.2rem 0.5rem 0.15rem;
+    margin-bottom: 0.75rem;
+    font-weight: 800; }
   .project-row h4 {
     font-weight: 800; }
   .project-row .more-wrapper {
